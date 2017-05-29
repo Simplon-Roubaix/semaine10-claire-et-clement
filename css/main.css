@@ -241,6 +241,7 @@ padding: 20px;
 
 #accueil .tableaux a {
   color: black;
+  padding: 0;
 }
 
  #accueil .inttableau p {
@@ -251,6 +252,50 @@ padding: 20px;
 #accueil .tableaux a:hover, #accueil .tableaux a:hover p {
   color: #D8383F;
   transition: all 0.3s ease 0s;
+}
+
+/*******************************************************décrouvrir plus d'oeuvres**************************************/
+
+.plusdoeuvre {
+  background-color: #1D1D1E;
+  text-align: center;
+  padding: 30px;
+}
+
+.plusdoeuvre a {
+  width: 90%;
+  border: 5px solid white;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  font-family: "lovelo";
+  color: white;
+  font-size: 15px;
+
+}
+
+.plusdoeuvre a:hover {
+  color: #D8383F;
+  transition: all 0.3s ease 0s;
+  border: 5px solid #D8383F;
+
+}
+
+.icon-archive::before {
+    content: "\e900";
+    font-family: "pba";
+}
+.insta {
+  padding: 40px;
+
+}
+#accueil .insta p {
+  font-size: 20px;
+}
+
+.insta i {
+  color: white;
+  font-size: 60px;
 }
 
 
@@ -374,13 +419,35 @@ padding: 20px;
   color: #D8383F;
   transition: all 0.3s ease 0s;
 
-}  .carousel-item {
+}
+/***************************************************************carousel***********************************************/
+
+ .carousel-item {
     height: 600px;
   }
 
 .icon-parent::before,.icon-musee-prive::before, .icon-place::before {
   font-size: 50px;
 }
+
+/**********************************************************tableaux**********************************************/
+.tableaux {
+  display: flex;
+flex-flow: row nowrap;
+width: 100%
+}
+
+.inttableau h5 {
+  font-size: 20px;
+
+}
+
+#accueil .inttableau p {
+
+ font-size: 15px;
+}
+
+
 
 
 }
