@@ -276,6 +276,18 @@ padding: 20px;
     height: 520px;
   }
 
+  /********************************************tableaux*********************************************/
+
+  .inttableau h5 {
+    font-size: 40px;
+
+  }
+
+  #accueil .inttableau p {
+
+   font-size: 20px;
+ }
+
 }
 
 
