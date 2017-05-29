@@ -303,18 +303,84 @@ padding: 20px;
   margin : 0;
 }
 
-/*.instragra {
-  display: flex;
-  flex-flow: row wrap;
-}*/
 
 .instagra figure:hover {
-  background-color: red;
+  background-color: #D8383F;
 z-index: 20;
 }
 
 .instagra figure:hover img {
   opacity: 0.5;
+}
+
+/*************************************************************applis****************************************************************/
+.applis {
+  background-color: #D8383F;
+  text-align: center;
+  padding: 20px;
+}
+
+.lienapplis:hover .applis {
+  background-color: white;
+  transition: all 0.3s ease 0s;
+}
+
+#accueil .lienapplis:hover .applis h3 {
+  color: #D8383F;
+  border: 3px solid #D8383F;
+  transition: all 0.3s ease 0s;
+}
+
+#accueil .lienapplis:hover .applis p {
+  color: #D8383F;
+  transition: all 0.3s ease 0s;
+}
+
+#accueil .lienapplis:hover .svg-tablette .st0, #accueil .lienapplis:hover .svg-tablette .st1  {
+  stroke: #D8383F;
+  transition: all 0.3s ease 0s;
+
+}
+
+#accueil .lienapplis:hover .svg-tablette .st2 {
+  fill : #D8383F;
+  transition: all 0.3s ease 0s;
+}
+
+.svg-tablette {
+  margin: auto;
+  display: block;
+  padding: 20px;
+  height: 50%;
+
+}
+
+.svg-tablette .st0 {
+  fill: none;
+stroke: #FFF;
+stroke-width: 2;
+stroke-miterlimit: 10;
+}
+
+.svg-tablette .st1 {
+  fill: none;
+stroke: #FFF;
+stroke-miterlimit: 10;
+}
+
+.svg-tablette .st2 {
+
+  fill :#FFF;
+}
+
+.applis h3 {
+  margin: auto;
+  font-family: "lovelo";
+  font-size: 15px;
+  width: 90%;
+  border: 3px solid white;
+  padding: 10px;
+
 }
 
 
