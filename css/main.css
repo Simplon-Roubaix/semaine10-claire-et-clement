@@ -303,6 +303,11 @@ padding: 20px;
   margin : 0;
 }
 
+/*.instragra {
+  display: flex;
+  flex-flow: row wrap;
+}*/
+
 .instagra figure:hover {
   background-color: red;
 z-index: 20;
@@ -343,6 +348,12 @@ z-index: 20;
   #accueil .inttableau p {
 
    font-size: 20px;
+ }
+
+ /*****************************************instragra***************************************************/
+ .instagra figure {
+   width: 50%;
+
  }
 
 }
