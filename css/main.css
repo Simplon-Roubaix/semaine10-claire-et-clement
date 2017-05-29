@@ -350,7 +350,7 @@ z-index: 20;
 .svg-tablette {
   margin: auto;
   display: block;
-  padding: 20px;
+padding: 20px;
   height: 50%;
 
 }
@@ -540,6 +540,43 @@ width: 100%
   width: 50%;
 }
 
+/***********************************************applis**************************************************/
+.applis {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 143px;
+}
+
+#accueil .svg-tablette {
+  height: 200px;
+  order: 1;
+  width: 300px;
+}
+
+#accueil .applis h3 {
+
+  border: none;
+  order: 2;
+  font-size: 25px;
+  width: 50%;
+  text-align: left;
+  padding: 0;
+}
+
+
+#accueil .applis p {
+  width: auto;
+  order: 3;
+  font-size: 20px;
+  width: 50%;
+  text-align: left;
+}
+
+#accueil .lienapplis:hover .applis h3 {
+  border: none;
+}
 
 }
 
