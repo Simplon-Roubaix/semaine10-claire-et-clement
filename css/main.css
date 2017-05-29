@@ -383,6 +383,48 @@ stroke-miterlimit: 10;
 
 }
 
+/*******************************************************************en ce moment*************************************************/
+.icon-tower::before {
+    content: "\e933";
+    font-family: "pba";
+    color: black;
+    font-size: 35px;
+    position: relative;
+    top : 10px;
+}
+
+.icon-globe::before {
+    content: "\e91a";
+    font-family: "pba";
+    color: black;
+    font-size: 35px;
+    position: relative;
+    top : 10px;
+}
+
+#accueil .encemoment p {
+  color: black;
+  font-size: 12px;
+}
+.lille, .culturel {
+  width: 85%;
+  text-align: center;
+  border: 3px solid black;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+#accueil .encemoment a:hover p {
+  color: #D8383F;
+}
+
+#accueil .encemoment a:hover .lille, #accueil .encemoment a:hover .culturel {
+  border-color: #D8383F;
+}
+
+
 
 @media (min-width: 660px){
 
