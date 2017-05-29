@@ -13,6 +13,125 @@
 /*****************************************************clement*********************************************************************/
 
 
+#accueil {
+  padding: 0;
+  margin: 0;
+}
+
+#accueil a:hover {
+  text-decoration: none;
+}
+
+
+.collection-phone {
+  background-image: url(../img/accueil/Palais-des-Beaux-Arts-de-Lille.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 440px;
+}
+
+#accueil h1 {
+  font-family: "pba";
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding: 15px;
+}
+
+.hautdroitebas {
+  background-image: url(../img/accueil/deco-up.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 40px;
+
+}
+
+#accueil h2 {
+  font-family: "lovelo";
+  color: white;
+  font-size: 25px;
+padding-top: 8px;
+
+}
+
+#accueil p {
+  font-family: "lovelo";
+  color: white;
+  font-size: 15px;
+}
+
+.gauchedroite {
+
+    background-image: url(../img/accueil/deco-up.svg);
+    background-size: cover;
+    background-position: 0% 92%;
+    background-repeat: no-repeat;
+    height: 40px;
+
+  }
+
+  .basgauchehaut {
+    background-image: url(../img/accueil/deco-bottom.svg);
+    background-size: cover;
+    background-position: 0% 92%;
+    background-repeat: no-repeat;
+    height: 40px;
+
+
+  }
+
+  .icon-chef-oeuvre::before {
+    content: "\e905";
+    font-family: "pba";
+    font-size: 30px;
+    color: white;
+}
+
+  .icon-parcours::before {
+    content: "\e922";
+    font-family: "pba";
+    color: white;
+    font-size: 30px;
+}
+
+.collection-phone a:hover .icon::before {
+
+color: #D8383F;
+transition: all 0.3s ease 0s;
+}
+
+@media (min-width: 660px){
+
+  .collection-phone {
+    height: 493px
+  }
+
+  #accueil h2 {
+    font-size: 46px;
+  }
+
+  #accueil p {
+    font-size: 24px;
+  }
+
+}
+
+
+
+
+@media (min-width: 760px) {
+
+
+  .gauchedroite, .hautdroitebas, .basgauchehaut {
+
+
+      height: 65px;
+
+    }
+
+}
 
 
 
