@@ -297,8 +297,20 @@ padding: 20px;
   color: white;
   font-size: 60px;
 }
+/*******************************************************************instagramm*****************************************************/
+.instagra figure {
+  width: 100%;
+  margin : 0;
+}
 
+.instagra figure:hover {
+  background-color: red;
+z-index: 20;
+}
 
+.instagra figure:hover img {
+  opacity: 0.5;
+}
 
 
 @media (min-width: 660px){
@@ -446,8 +458,10 @@ width: 100%
 
  font-size: 15px;
 }
-
-
+/*********************************************plus doeuvres***********************************************/
+.plusdoeuvre a {
+  width: 50%;
+}
 
 
 }
