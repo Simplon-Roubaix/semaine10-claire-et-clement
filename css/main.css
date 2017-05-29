@@ -29,7 +29,8 @@
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-  height: 440px;
+  height: 480px;
+  padding: 30px 0;
 }
 
 #accueil h1 {
@@ -102,6 +103,49 @@ color: #D8383F;
 transition: all 0.3s ease 0s;
 }
 
+
+/******************************************************carousel*****************************************************/
+.carousel-item {
+  height: 400px;
+}
+#img1 {
+  background-image: url(../img/accueil/LE-MUSEE-SE-REINVENTE.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#img2 {
+  background-image: url(../img/accueil/NOUVEAU-CAFE!-NOUVELLE-BOUTIQUE.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#img3 {
+  background-image: url(../img/accueil/OPEN-MUSEUM-4-ALAIN-PASSARD.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#accueil .carousel-caption {
+  height: 90%;
+
+}
+
+.hautgauchedroitebas {
+border-top: 8px solid white;
+border-left: 8px solid white;
+border-right : 8px solid white;
+height: 15px;
+}
+
+.basgauchedroitehaut {
+  border-bottom: 8px solid white;
+  border-left: 8px solid white;
+  border-right : 8px solid white;
+  height: 15px;
+
+}
+
 @media (min-width: 660px){
 
   .collection-phone {
@@ -116,9 +160,12 @@ transition: all 0.3s ease 0s;
     font-size: 24px;
   }
 
+  /***********************************************carousel*******************************************/
+  .carousel-item {
+    height: 500px;
+  }
+
 }
-
-
 
 
 @media (min-width: 710px) {
