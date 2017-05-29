@@ -77,7 +77,7 @@ padding-top: 8px;
     background-size: cover;
     background-position: 0% 92%;
     background-repeat: no-repeat;
-    height: 40px;
+    height: 50px;
 
 
   }
@@ -96,7 +96,7 @@ padding-top: 8px;
     font-size: 30px;
 }
 
-.collection-phone a:hover .icon::before {
+#accueil a:hover .icon::before {
 
 color: #D8383F;
 transition: all 0.3s ease 0s;
@@ -105,7 +105,7 @@ transition: all 0.3s ease 0s;
 @media (min-width: 660px){
 
   .collection-phone {
-    height: 493px
+    height: 600px
   }
 
   #accueil h2 {
@@ -121,7 +121,7 @@ transition: all 0.3s ease 0s;
 
 
 
-@media (min-width: 760px) {
+@media (min-width: 710px) {
 
 
   .gauchedroite, .hautdroitebas, .basgauchehaut {
@@ -132,6 +132,80 @@ transition: all 0.3s ease 0s;
     }
 
 }
+
+@media (min-width: 990px) {
+
+  .gauchedroite, .hautdroitebas, .basgauchehaut {
+    height: 90px;
+  }
+
+
+}
+
+@media (min-width: 1200px) {
+
+ #accueil .collection-visiter-pc {
+  background-image: url(../img/accueil/Palais-des-Beaux-Arts-de-Lille.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0;
+
+}
+
+.fa.fa-chevron-down {
+  position: absolute;
+  top : 400px;
+}
+
+.basdroitehaut {
+  background-image: url(../img/accueil/deco-bottom.svg);
+  background-size: cover;
+  background-position: 0% 92%;
+  background-repeat: no-repeat;
+  height: 90px;
+  -moz-transform: scaleX(-1);
+ -o-transform: scaleX(-1);
+ -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+ filter: FlipH;
+ -ms-filter: "FlipH";
+
+}
+
+.hautgauchebas {
+
+    background-image: url(../img/accueil/deco-up.svg);
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+
+   height: 90px;
+   -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.collection-visiter-pc i {
+  font-size: 40px;
+  color: white;
+}
+
+.collection-visiter-pc i:hover {
+  color: #D8383F;
+  transition: all 0.3s ease 0s;
+
+}
+
+
+
+
+}
+
 
 
 
