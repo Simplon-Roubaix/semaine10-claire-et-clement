@@ -351,7 +351,8 @@ z-index: 20;
   margin: auto;
   display: block;
 padding: 20px;
-  height: 50%;
+  height: 100%;
+  width: 300px;
 
 }
 
@@ -462,6 +463,12 @@ stroke-miterlimit: 10;
  .instagra figure {
    width: 50%;
 
+ }
+
+ /****************************************en ce moment*********************************************/
+ #accueil .encemoment p {
+
+   font-size: 20px;
  }
 
 }
@@ -588,13 +595,15 @@ width: 100%
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  height: 143px;
+  height: 200px;
 }
 
 #accueil .svg-tablette {
   height: 200px;
   order: 1;
   width: 300px;
+  margin-left: 270px;
+
 }
 
 #accueil .applis h3 {
@@ -614,10 +623,23 @@ width: 100%
   font-size: 20px;
   width: 50%;
   text-align: left;
+  position: relative;
+  bottom : 30px;
 }
 
 #accueil .lienapplis:hover .applis h3 {
   border: none;
+}
+
+/************************************************en ce moment**********************************************/
+#accueil .encemoment {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.lille, .culturel {
+  width: 500px;
 }
 
 }
