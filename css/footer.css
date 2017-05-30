@@ -102,7 +102,7 @@ footer nav *[class^="icon"]:hover {
     font-size: 25px;
   }
 
-  footer ul li ul li
+
 
   footer *[class^="icon"],footer .icon-musee-prive::before {
     font-size: 45px;
@@ -111,4 +111,63 @@ footer nav *[class^="icon"]:hover {
   footer nav *[class^="icon"] {
     font-size: 45px;
   }
+}
+
+@media (min-width : 1100px) {
+
+  footer>ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  footer>ul>li {
+    width: 24%;
+  }
+
+  .footphone {
+    width: 92%;
+  }
+
+  footer ul li ul li {
+    font-size: 12px;
+  }
+
+  .icon-share-circled::before {
+    content: "\e939";
+}
+footer .iconpc *[class^="icon"] {
+  font-size: 30px;
+}
+
+hr {
+  border: 2px solid white;
+  width: 100%;
+}
+
+.petitpc {
+  font-size: 12px;
+}
+
+.petitpc *[class^="icon"] {
+  font-size: 20px;
+}
+.mecene img {
+  width: 200px;
+}
+
+.mecene {
+  margin-left: auto;
+  width: 600px;
+  padding: 30px;
+}
+
+.mecene p {
+  font-size: 10px;
+  color: grey;
+}
+footer .iconpc *[class^="icon"]:hover {
+  color: #D8383F
+}
+
 }
