@@ -83,21 +83,23 @@ padding-top: 8px;
 
   }
 
+  #accueil *[class^="icon"] {
+    font-family: "pba";
+    color : white;
+    font-size: 40px;
+  }
+
   .icon-chef-oeuvre::before {
     content: "\e905";
-    font-family: "pba";
-    font-size: 30px;
-    color: white;
+
 }
 
   .icon-parcours::before {
     content: "\e922";
-    font-family: "pba";
-    color: white;
-    font-size: 30px;
+
 }
 
-#accueil a:hover .icon::before {
+#accueil a:hover *[class^="icon"]{
 
 color: #D8383F;
 transition: all 0.3s ease 0s;
@@ -156,23 +158,17 @@ height: 15px;
 
 .icon-parent::before {
     content: "\e923";
-    font-family: "pba";
-    color: white;
-    font-size: 40px;
+
 }
 
 .icon-musee-prive::before {
     content: "\e921";
-    font-family: "pba";
-    color: white;
-    font-size: 40px;
+
 }
 
 .icon-place::before {
     content: "\e968";
-    font-family: "pba";
-    color: white;
-    font-size: 40px;
+
 }
 /********************************************section plus d'oeuvre************************************************************/
 .oeuvrescles {
@@ -283,7 +279,7 @@ padding: 20px;
 
 .icon-archive::before {
     content: "\e900";
-    font-family: "pba";
+
 }
 .insta {
   padding: 40px;
@@ -387,7 +383,7 @@ stroke-miterlimit: 10;
 /*******************************************************************en ce moment*************************************************/
 .icon-tower::before {
     content: "\e933";
-    font-family: "pba";
+
     color: black;
     font-size: 35px;
     position: relative;
@@ -396,11 +392,15 @@ stroke-miterlimit: 10;
 
 .icon-globe::before {
     content: "\e91a";
-    font-family: "pba";
+
     color: black;
     font-size: 35px;
     position: relative;
     top : 10px;
+}
+
+#accueil a:hover .icon-globe::before, #accueil a:hover .icon-tower::before {
+  color: #D8383F;
 }
 
 #accueil .encemoment p {
