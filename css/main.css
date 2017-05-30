@@ -667,11 +667,7 @@ svg:hover #Shape { fill: yellow; }
   height: 500px;
 }
 
-.parcours {
-  height: 482px;
-}
-
-.incontournables{
+.incontournables, .parcours{
   height: 99vw;
 }
 
@@ -684,6 +680,10 @@ svg:hover #Shape { fill: yellow; }
 
   .text-box {
     padding: 20px;
+  }
+
+  .parcours {
+    height: 482px;
   }
 
 
