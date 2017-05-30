@@ -611,4 +611,139 @@
 
 
 
-***********************************************claire***********************************************
+/***********************************************claire***********************************************/
+
+svg:hover #Shape { fill: yellow; }
+
+
+@font-face {
+  font-family: "lovelo";
+  src: url(../fonts/lovelo.ttf);
+}
+
+@font-face {
+  font-family: "pba";
+  src: url(../fonts/pba.ttf);
+}
+
+.visiter body, .visiter a {
+  font-family: "lovelo";
+}
+
+.visiter a {
+  text-decoration: none;
+  color: black;
+}
+
+.visiter a:hover {
+  color: #D8383F;
+  text-decoration: none;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.text-box {
+  padding: 20px;
+}
+
+.title {
+  font-size: 48px;
+}
+
+/* --------------------- background image --------------------- */
+
+.backgroundimg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* --------------------- aside properties --------------------- */
+
+.profils {
+  width: 20%;
+  height: 500px;
+}
+
+.parcours {
+  height: 482px;
+}
+
+.incontournables {
+  height: 424px;
+  width: 300px;
+}
+
+/* --------------------- background images : profils / parcours / incontournables --------------------- */
+
+/* gallery profiles */
+
+.backgroundimg.profils.one {
+  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/profil-1.jpg");
+}
+
+.backgroundimg.profils.two {
+  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/profil-2.jpg");
+}
+
+.backgroundimg.profils.three {
+  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/profil-3.jpg");
+}
+
+.backgroundimg.profils.four {
+  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/profil-4.jpg");
+}
+
+.backgroundimg.profils.five {
+  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/profil-5.jpg");
+}
+
+/* gallery parcours */
+
+.backgroundimg.parcours.one {
+  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/parcours-1.jpg");
+}
+
+.backgroundimg.parcours.two {
+  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/parcours-2.jpg");
+}
+
+.backgroundimg.parcours.three {
+  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/parcours-3.jpg");
+}
+
+.backgroundimg.parcours.four {
+  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/parcours-4.jpg");
+}
+
+.backgroundimg.parcours.five {
+  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/parcours-5.jpg");
+}
+
+.backgroundimg.parcours.six {
+  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/parcours-6.jpg");
+}
+
+.backgroundimg.parcours.seven {
+  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/parcours-7.jpg");
+}
+
+.backgroundimg.parcours.eight {
+  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/parcours-8.jpg");
+}
+
+/* gallery incontournables */
+
+.backgroundimg.incontournables.one {
+  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/incontournables-1.jpg");
+}
+
+.backgroundimg.incontournables.two {
+  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/incontournables-2.jpg");
+}
+
+.backgroundimg.incontournables.three {
+  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/incontournables-3.jpg");
+}
