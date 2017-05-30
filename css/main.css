@@ -645,7 +645,7 @@ svg:hover #Shape { fill: yellow; }
 }
 
 .text-box {
-  padding: 20px;
+  padding: 47px;
 }
 
 .title {
@@ -671,9 +671,22 @@ svg:hover #Shape { fill: yellow; }
   height: 482px;
 }
 
-.incontournables {
-  height: 424px;
-  width: 300px;
+.incontournables{
+  height: 99vw;
+}
+
+@media (min-width: 992px) {
+
+  .incontournables {
+    height: 424px;
+    width: 300px;
+  }
+
+  .text-box {
+    padding: 20px;
+  }
+
+
 }
 
 /* --------------------- background images : profils / parcours / incontournables --------------------- */
