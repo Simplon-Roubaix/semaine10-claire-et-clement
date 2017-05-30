@@ -1,0 +1,149 @@
+li {
+  list-style: none;
+}
+
+
+
+header {
+  background-color: #1D1D1E;
+  padding: 10px;
+  position: sticky;
+  top:0;
+}
+
+.navphone img {
+  width: 30px;
+  margin-right: auto;
+}
+
+
+
+.icon-search::before {
+    content: "\e92a";
+    font-family: "pba";
+    color: white;
+    font-size: 30px;
+}
+
+.icon-infos::before {
+    content: "\e938";
+    font-family: "pba";
+    color: white;
+      font-size: 30px
+}
+
+#myModal  {
+background-color: #1D1D1E;
+border: 5px solid white;
+position: absolute;
+top : 80px;
+width: 100%;
+height: 88vh;
+}
+
+#myModal a:hover  {
+  text-decoration: none;
+
+}
+
+#myModal ul li a {
+  color: white;
+}
+
+#myModal li {
+padding: 20px;
+  color : white;
+  font-family: "lovelo";
+}
+
+#myModal button {
+  color: white;
+
+}
+
+#myModal .middle {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+header i {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top : 8px;
+}
+header button {
+  background-color:  #1D1D1E;
+  border: none;
+}
+
+.icon-send::before {
+    content: "\e92b";
+
+    font-family: "pba";
+    color: white;
+    font-size: 20px;
+}
+
+/*************************************nav pc***********************************************************/
+.navpc h1 {
+  font-family: "pba";
+  color : white;
+  padding: 10px;
+}
+
+.navpc ul {
+  width: 100%
+}
+
+.navpc img {
+  width: 50px;
+}
+
+.navpc li a {
+  font-family: "lovelo";
+  color: white;
+}
+
+.navpc li a:hover {
+  text-decoration: none;
+  color: #D8383F;
+}
+
+.navpc input  {
+  border-radius: 0;
+  border: 3px solid white;
+  background-color: transparent;
+  width: 80%;
+}
+
+.navpc input:hover {
+  border-color: #D8383F;
+}
+.navpc select {
+  border: none;
+  color: white;
+  background-color: transparent;
+
+
+}
+.navpc select:hover {
+  color: #D8383F;
+}
+
+.fa.fa-search {
+  position: relative;
+  right: 25px;
+  font-size: 15px;
+  top: 0px;
+}
+
+
+
+@media (min-width: 660px){
+
+  #myModal li {
+font-size:30px;
+  }
+
+}
