@@ -33,6 +33,7 @@ footer *[class^="icon"],footer .icon-musee-prive::before {
 
 }
 
+
 .icon-marker::before {
     content: "\e91e";
 
@@ -88,4 +89,26 @@ footer nav *[class^="icon"] {
 
 footer nav *[class^="icon"]:hover {
   color :#D8383F;
+}
+
+@media (min-width : 660px) {
+  .footphone {
+    width: 450px;
+
+  }
+
+  footer ul li, footer ul li ul li {
+
+    font-size: 25px;
+  }
+
+  footer ul li ul li
+
+  footer *[class^="icon"],footer .icon-musee-prive::before {
+    font-size: 45px;
+  }
+
+  footer nav *[class^="icon"] {
+    font-size: 45px;
+  }
 }
