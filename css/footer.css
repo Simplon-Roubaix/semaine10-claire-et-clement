@@ -1,0 +1,91 @@
+footer {
+  background-color: #1D1D1E;
+  font-family: "lovelo";
+  color: white;
+
+}
+
+footer ul  {
+  list-style: none;
+  padding-left: 0;
+}
+footer>ul>li{
+  padding: 20px;
+  font-size: 15px;
+}
+
+
+
+
+
+footer ul li ul li {
+  font-size:10px;
+  font-weight: lighter;
+}
+footer *[class^="icon"],footer .icon-musee-prive::before {
+  font-size: 20px;
+  font-family: "pba";
+  color: white;
+}
+
+.icon-clock::before {
+    content: "\e907";
+
+}
+
+.icon-marker::before {
+    content: "\e91e";
+
+}
+
+.icon-presse::before {
+    content: "\e927";
+
+}
+
+.icon-send::before {
+    content: "\e92b";
+
+}
+
+.footphone {
+  width: 274px;
+  margin: auto;
+}
+
+
+
+.icon-twitter-circled::before {
+
+    content: "\e934";
+
+
+}
+
+.icon-facebook-circled::before {
+    content: "\e93a";
+}
+
+.icon-instagram::before {
+    content: "\e91c";
+}
+
+.icon-vimeo-circled::before {
+    content: "\e936";
+}
+
+.icon-youtube-circled::before {
+    content: "\e93c";
+}
+
+footer nav {
+  margin-top: 40px;
+}
+
+footer nav *[class^="icon"] {
+  font-size: 35px;
+}
+
+footer nav *[class^="icon"]:hover {
+  color :#D8383F;
+}
