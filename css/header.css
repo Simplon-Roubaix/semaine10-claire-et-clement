@@ -7,6 +7,8 @@ li {
 header {
   background-color: #1D1D1E;
   padding: 10px;
+  position: sticky;
+  top:0;
 }
 
 .navphone img {
@@ -105,7 +107,7 @@ header button {
 
 .navpc li a:hover {
   text-decoration: none;
-  color: red;
+  color: #D8383F;
 }
 
 .navpc input  {
@@ -114,12 +116,19 @@ header button {
   background-color: transparent;
   width: 80%;
 }
+
+.navpc input:hover {
+  border-color: #D8383F;
+}
 .navpc select {
   border: none;
   color: white;
   background-color: transparent;
 
 
+}
+.navpc select:hover {
+  color: #D8383F;
 }
 
 .fa.fa-search {
