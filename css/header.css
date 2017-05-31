@@ -26,6 +26,17 @@ header {
   width: 100%;
 }
 
+#tete #nav-icon1.collapsed .fa-bars::before  {
+content: "\f0c9";
+
+
+}
+
+#tete #nav-icon1 .fa-bars::before  {
+  content: "\f00d";
+
+}
+
 
 
 
@@ -126,6 +137,20 @@ header button {
   color : white;
   padding: 10px;
 }
+
+#langue {
+   -moz-appearance: none;
+   with: 100px;
+}
+
+.fa.fa-caret-down {
+  position: absolute;
+  top : 16px;
+  left : 85%;
+  font-size: 30px;
+}
+
+.
 
 .navpc ul {
   width: 100%
