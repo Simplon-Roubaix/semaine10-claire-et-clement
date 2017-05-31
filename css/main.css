@@ -13,6 +13,637 @@
 /*****************************************************clement*********************************************************************/
 
 
+#accueil {
+  padding: 0;
+  margin: 0;
+}
+
+#accueil a:hover {
+  text-decoration: none;
+}
+
+
+.collection-phone {
+  background-image: url(../img/accueil/Palais-des-Beaux-Arts-de-Lille.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 480px;
+  padding: 30px 0;
+}
+
+#accueil h1 {
+  font-family: "pba";
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding: 15px;
+}
+
+.hautdroitebas {
+  background-image: url(../img/accueil/deco-up.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 40px;
+
+}
+
+#accueil h2 {
+  font-family: "lovelo";
+  color: white;
+  font-size: 25px;
+padding-top: 8px;
+
+}
+
+#accueil p {
+  font-family: "lovelo";
+  color: white;
+  font-size: 15px;
+}
+
+.gauchedroite {
+
+    background-image: url(../img/accueil/deco-up.svg);
+    background-size: cover;
+    background-position: 0% 92%;
+    background-repeat: no-repeat;
+    height: 40px;
+
+  }
+
+  .basgauchehaut {
+    background-image: url(../img/accueil/deco-bottom.svg);
+    background-size: cover;
+    background-position: 0% 92%;
+    background-repeat: no-repeat;
+    height: 50px;
+
+
+  }
+
+  #accueil *[class^="icon"] {
+    font-family: "pba";
+    color : white;
+    font-size: 40px;
+  }
+
+  .icon-chef-oeuvre::before {
+    content: "\e905";
+
+}
+
+  .icon-parcours::before {
+    content: "\e922";
+
+}
+
+#accueil a:hover *[class^="icon"]{
+
+color: #D8383F;
+transition: all 0.3s ease 0s;
+}
+
+
+/******************************************************carousel*****************************************************/
+.carousel-item {
+  height: 470px;
+}
+#img1 {
+  background-image: url(../img/accueil/LE-MUSEE-SE-REINVENTE.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#img2 {
+  background-image: url(../img/accueil/NOUVEAU-CAFE!-NOUVELLE-BOUTIQUE.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#img3 {
+  background-image: url(../img/accueil/OPEN-MUSEUM-4-ALAIN-PASSARD.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#img1,#img2, #img3 {
+  margin-bottom: 0;
+}
+
+#accueil h3 {
+  color: white;
+}
+
+#accueil .carousel-caption {
+  height: 90%;
+
+}
+
+.hautgauchedroitebas {
+border-top: 8px solid white;
+border-left: 8px solid white;
+border-right : 8px solid white;
+height: 15px;
+}
+
+.basgauchedroitehaut {
+  border-bottom: 8px solid white;
+  border-left: 8px solid white;
+  border-right : 8px solid white;
+  height: 15px;
+
+}
+
+.icon-parent::before {
+    content: "\e923";
+
+}
+
+.icon-musee-prive::before {
+    content: "\e921";
+
+}
+
+.icon-place::before {
+    content: "\e968";
+
+}
+/********************************************section plus d'oeuvre************************************************************/
+.oeuvrescles {
+  background-color: #1D1A20;
+  padding: 20px;
+  text-align: center;
+}
+
+.fa.fa-caret-down {
+  color: white;
+  font-size: 40px;
+}
+
+#accueil .tableaux article {
+  padding: 0;
+  width: 100%;
+  position: relative;
+
+  padding-bottom: 100%;
+}
+
+#tableau1 {
+  background-image: url(../img/accueil/Le-Concert-dans-l-oeuf.jpg);
+  background-size: cover;
+  background-position: center;
+
+
+}
+
+#tableau2 {
+  background-image: url(../img/accueil/Etude-pour-la-Madone-d-Albe.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+#tableau3 {
+  background-image: url(../img/accueil/Les-Vieilles-Le-Temps.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+#tableau4 {
+  background-image: url(../img/accueil/Le-festin-d-Herode.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+
+.inttableau {
+  background-color: white;
+  position: absolute;
+  width: 60%;
+  height: 40%;
+  bottom: 60px;
+left : 20%;
+padding: 20px;
+}
+.inttableau h5 {
+  font-size: 20px;
+  font-family: "lovelo"
+}
+
+#accueil .tableaux a {
+  color: black;
+  padding: 0;
+}
+
+ #accueil .inttableau p {
+  color: black;
+  font-size: 12px;
+}
+
+#accueil .tableaux a:hover, #accueil .tableaux a:hover p {
+  color: #D8383F;
+  transition: all 0.3s ease 0s;
+}
+
+/*******************************************************décrouvrir plus d'oeuvres**************************************/
+
+.plusdoeuvre {
+  background-color: #1D1D1E;
+  text-align: center;
+  padding: 30px;
+}
+
+.plusdoeuvre a {
+  width: 90%;
+  border: 5px solid white;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  font-family: "lovelo";
+  color: white;
+  font-size: 15px;
+
+}
+
+.plusdoeuvre a:hover {
+  color: #D8383F;
+  transition: all 0.3s ease 0s;
+  border: 5px solid #D8383F;
+
+}
+
+.icon-archive::before {
+    content: "\e900";
+
+}
+.insta {
+  padding: 40px;
+
+}
+#accueil .insta p {
+  font-size: 20px;
+}
+
+.insta i {
+  color: white;
+  font-size: 60px;
+}
+/*******************************************************************instagramm*****************************************************/
+.instagra figure {
+  width: 100%;
+  margin : 0;
+}
+
+
+.instagra figure:hover {
+  background-color: #D8383F;
+z-index: 20;
+}
+
+.instagra figure:hover img {
+  opacity: 0.5;
+}
+
+/*************************************************************applis****************************************************************/
+.applis {
+  background-color: #D8383F;
+  text-align: center;
+  padding: 20px;
+}
+
+.lienapplis:hover .applis {
+  background-color: white;
+  transition: all 0.3s ease 0s;
+}
+
+#accueil .lienapplis:hover .applis h3 {
+  color: #D8383F;
+  border: 3px solid #D8383F;
+  transition: all 0.3s ease 0s;
+}
+
+#accueil .lienapplis:hover .applis p {
+  color: #D8383F;
+  transition: all 0.3s ease 0s;
+}
+
+#accueil .lienapplis:hover .svg-tablette .st0, #accueil .lienapplis:hover .svg-tablette .st1  {
+  stroke: #D8383F;
+  transition: all 0.3s ease 0s;
+
+}
+
+#accueil .lienapplis:hover .svg-tablette .st2 {
+  fill : #D8383F;
+  transition: all 0.3s ease 0s;
+}
+
+.svg-tablette {
+  margin: auto;
+  display: block;
+padding: 20px;
+  height: 100%;
+  width: 300px;
+
+}
+
+.svg-tablette .st0 {
+  fill: none;
+stroke: #FFF;
+stroke-width: 2;
+stroke-miterlimit: 10;
+}
+
+.svg-tablette .st1 {
+  fill: none;
+stroke: #FFF;
+stroke-miterlimit: 10;
+}
+
+.svg-tablette .st2 {
+
+  fill :#FFF;
+}
+
+.applis h3 {
+  margin: auto;
+  font-family: "lovelo";
+  font-size: 15px;
+  width: 90%;
+  border: 3px solid white;
+  padding: 10px;
+
+}
+
+/*******************************************************************en ce moment*************************************************/
+.icon-tower::before {
+    content: "\e933";
+
+    color: black;
+    font-size: 35px;
+    position: relative;
+    top : 10px;
+}
+
+.icon-globe::before {
+    content: "\e91a";
+
+    color: black;
+    font-size: 35px;
+    position: relative;
+    top : 10px;
+}
+
+#accueil a:hover .icon-globe::before, #accueil a:hover .icon-tower::before {
+  color: #D8383F;
+}
+
+#accueil .encemoment p {
+  color: black;
+  font-size: 12px;
+}
+.lille, .culturel {
+  width: 85%;
+  text-align: center;
+  border: 3px solid black;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+#accueil .encemoment a:hover p {
+  color: #D8383F;
+}
+
+#accueil .encemoment a:hover .lille, #accueil .encemoment a:hover .culturel {
+  border-color: #D8383F;
+}
+
+
+
+@media (min-width: 660px){
+
+  .collection-phone {
+    height: 600px
+  }
+
+  #accueil h2 {
+    font-size: 46px;
+  }
+
+  #accueil p {
+    font-size: 24px;
+  }
+
+
+  /***********************************************carousel*******************************************/
+  .carousel-item {
+    height: 520px;
+  }
+
+  /********************************************tableaux*********************************************/
+
+  .inttableau h5 {
+    font-size: 40px;
+
+  }
+
+  #accueil .inttableau p {
+
+   font-size: 20px;
+ }
+
+ /*****************************************instragra***************************************************/
+ .instagra figure {
+   width: 50%;
+
+ }
+
+ /****************************************en ce moment*********************************************/
+ #accueil .encemoment p {
+
+   font-size: 20px;
+ }
+
+}
+
+
+@media (min-width: 710px) {
+
+
+  .gauchedroite, .hautdroitebas, .basgauchehaut {
+
+
+      height: 65px;
+
+    }
+
+}
+
+@media (min-width: 990px) {
+
+  .gauchedroite, .hautdroitebas, .basgauchehaut {
+    height: 90px;
+  }
+
+  /***********************************************carousel*******************************************/
+  .carousel-item {
+    height: 550px;
+  }
+
+
+}
+
+@media (min-width: 1200px) {
+
+ #accueil .collection-visiter-pc {
+  background-image: url(../img/accueil/Palais-des-Beaux-Arts-de-Lille.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0;
+
+}
+
+.fa.fa-chevron-down {
+  position: absolute;
+  top : 400px;
+}
+
+.basdroitehaut {
+  background-image: url(../img/accueil/deco-bottom.svg);
+  background-size: cover;
+  background-position: 0% 92%;
+  background-repeat: no-repeat;
+  height: 90px;
+  -moz-transform: scaleX(-1);
+ -o-transform: scaleX(-1);
+ -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+ filter: FlipH;
+ -ms-filter: "FlipH";
+
+}
+
+.hautgauchebas {
+
+    background-image: url(../img/accueil/deco-up.svg);
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+
+   height: 90px;
+   -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.collection-visiter-pc i {
+  font-size: 40px;
+  color: white;
+}
+
+.collection-visiter-pc i:hover {
+  color: #D8383F;
+  transition: all 0.3s ease 0s;
+
+}
+/***************************************************************carousel***********************************************/
+
+ .carousel-item {
+    height: 600px;
+  }
+
+.icon-parent::before,.icon-musee-prive::before, .icon-place::before {
+  font-size: 50px;
+}
+
+/**********************************************************tableaux**********************************************/
+.tableaux {
+  display: flex;
+flex-flow: row nowrap;
+width: 100%
+}
+
+.inttableau h5 {
+  font-size: 20px;
+
+}
+
+#accueil .inttableau p {
+
+ font-size: 15px;
+}
+/*********************************************plus doeuvres***********************************************/
+.plusdoeuvre a {
+  width: 50%;
+}
+
+/***********************************************applis**************************************************/
+.applis {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+#accueil .svg-tablette {
+  height: 200px;
+  order: 1;
+  width: 300px;
+  margin-left: 270px;
+
+}
+
+#accueil .applis h3 {
+
+  border: none;
+  order: 2;
+  font-size: 25px;
+  width: 50%;
+  text-align: left;
+  padding: 0;
+}
+
+
+#accueil .applis p {
+  width: auto;
+  order: 3;
+  font-size: 20px;
+  width: 50%;
+  text-align: left;
+  position: relative;
+  bottom : 30px;
+}
+
+#accueil .lienapplis:hover .applis h3 {
+  border: none;
+}
+
+/************************************************en ce moment**********************************************/
+#accueil .encemoment {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.lille, .culturel {
+  width: 500px;
+}
+
+}
+
 
 
 
