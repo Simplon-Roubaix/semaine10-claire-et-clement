@@ -626,6 +626,10 @@ svg:hover #Shape { fill: yellow; }
   src: url(../fonts/pba.ttf);
 }
 
+.text-lovelo{
+  font-family: "lovelo";
+}
+
 .visiter body, .visiter a {
   font-family: "lovelo";
 }
@@ -648,6 +652,9 @@ svg:hover #Shape { fill: yellow; }
   background-color: #E9E9E9;
 }
 
+.bg-black {
+  background-color: rgb(29, 29, 30);
+}
 .text-box {
   padding: 47px;
 }
@@ -719,6 +726,42 @@ h2 .title.parcours.visiter  {
   .size.visiter {
     padding: 3rem 3rem !important;
     margin-bottom: 45px;
+  }
+
+}
+
+/* --------------------- integrated icons --------------------- */
+
+.icon-parcours:before {
+  content: "\e922";
+  font-family: "pba";
+  font-size: 2rem;
+  color: white;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #FFF;
+    position: relative;
+    margin-left: -10px;
+    margin-top: 25px;
+}
+
+@media (min-width:576px) {
+
+  .icon-parcours:before {
+    font-size: 5rem;
+  }
+
+}
+
+@media (min-width: 992px)  {
+
+  .icon-parcours:before {
+    font-size: 3rem;
   }
 
 }
