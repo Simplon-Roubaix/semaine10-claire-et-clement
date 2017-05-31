@@ -675,33 +675,7 @@
   font-weight: bold;
 }
 
-@media (min-width: 992px) {
 
-  .incontournables {
-    height: 424px;
-    width: 300px;
-  }
-
-  .parcours {
-    height: 482px;
-  }
-
-}
-
-
-@media (min-width:576px) {
-
-  .size.visiter {
-    padding: 3rem 3rem !important;
-    margin-bottom: 45px;
-  }
-
-  .time-title {
-    font-size: 4.5rem ;
-    font-weight: bold;
-  }
-
-}
 
 
 /* white box with text of aside and a */
@@ -771,31 +745,6 @@
   font-size: 48px;
 }
 
-@media (min-width: 584px) {
-
-  .text-box-parcours {
-    padding: 47px;
-    height: 40vh;
-  }
-
-  .text-box-parcours h3 {
-    font-size: 3rem;
-  }
-
-}
-
-@media (min-width: 1000px) {
-  .text-box-parcours {
-    padding: 25px;
-    height: 139px;
-    width:236px;
-  }
-
-  .text-box-parcours h3 {
-    font-size: 1.7rem;
-  }
-}
-
 
 /* --------------------- integrated icons --------------------- */
 
@@ -823,26 +772,6 @@
   font-size: 1rem;
   color: #000;
   margin-right: 5px;
-}
-
-@media (min-width:576px) {
-
-  .icon-parcours:before {
-    font-size: 5rem;
-  }
-
-  .icon-clock.icon.tablet-format:before {
-    font-size: 2rem;
-  }
-
-}
-
-@media (min-width: 992px)  {
-
-  .icon-parcours:before {
-    font-size: 3rem;
-  }
-
 }
 
 /* --------------------- background image --------------------- */
@@ -923,4 +852,74 @@
 
 .backgroundimg.incontournables.three {
   background-image: url("../img/visiter/incontournables-3.jpg");
+}
+
+/* ------------------------------------------------------------------------------------
+
+      media queries
+
+------------------------------------------------------------------------------------ */
+
+@media (min-width:576px) {
+
+  .size.visiter {
+    padding: 3rem 3rem !important;
+    margin-bottom: 45px;
+  }
+
+  .time-title {
+    font-size: 4.5rem ;
+    font-weight: bold;
+  }
+
+}
+
+@media (min-width: 584px) {
+
+  .icon-parcours:before {
+    font-size: 5rem;
+  }
+
+  .icon-clock.icon.tablet-format:before {
+    font-size: 2rem;
+  }
+
+  .text-box-parcours {
+    padding: 47px;
+    height: 40vh;
+  }
+
+  .text-box-parcours h3 {
+    font-size: 3rem;
+  }
+
+}
+
+@media (min-width: 992px)  {
+
+  .icon-parcours:before {
+    font-size: 3rem;
+  }
+
+  .incontournables {
+    height: 424px;
+    width: 300px;
+  }
+
+  .parcours {
+    height: 482px;
+  }
+
+}
+
+@media (min-width: 1000px) {
+  .text-box-parcours {
+    padding: 25px;
+    height: 139px;
+    width:236px;
+  }
+
+  .text-box-parcours h3 {
+    font-size: 1.7rem;
+  }
 }
