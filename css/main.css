@@ -1215,7 +1215,7 @@ footer .icon-send::before {
 
 .fa.fa-chevron-down {
   position: absolute;
-  top : 400px;
+  top : 492px;
 }
 
 .basdroitehaut {
@@ -1223,7 +1223,7 @@ footer .icon-send::before {
   background-size: cover;
   background-position: 0% 92%;
   background-repeat: no-repeat;
-  height: 90px;
+  height: 112px;
   -moz-transform: scaleX(-1);
  -o-transform: scaleX(-1);
  -webkit-transform: scaleX(-1);
