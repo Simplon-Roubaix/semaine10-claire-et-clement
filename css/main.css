@@ -616,29 +616,19 @@
 
 /* fonts-family */
 
-@font-face {
-  font-family: "lovelo";
-  src: url(../fonts/lovelo.ttf);
-}
-
-@font-face {
-  font-family: "pba";
-  src: url(../fonts/pba.ttf);
-}
-
 .text-lovelo{
   font-family: "lovelo";
-}
-
-.text-opensans {
-  font-family: 'Open Sans', sans-serif;
 }
 
 .visiter body, .visiter a {
   font-family: "lovelo";
 }
 
-/* general a */
+.p-visiter p { /*line-height adjusts icon-clock to p text*/
+  line-height: 2;
+}
+
+/* general a hrefs */
 
 .visiter a {
   text-decoration: none;
@@ -650,7 +640,7 @@
   text-decoration: none;
 }
 
-/* color related */
+/* color related (bg : background) */
 
 .bg-white {
   background-color: white;
@@ -664,7 +654,7 @@
   background-color: rgb(29, 29, 30);
 }
 
-/* --------------------- aside properties --------------------- */
+/* --------------------- aside boxes --------------------- */
 
 .profils {
   width: 20%;
@@ -680,7 +670,7 @@
   margin-bottom: 22px;
 }
 
-.time-title {
+.time-title { /* text in incontournables section */
   font-size: 2rem ;
   font-weight: bold;
 }
@@ -690,10 +680,6 @@
   .incontournables {
     height: 424px;
     width: 300px;
-  }
-
-  .text-box {
-    padding: 20px;
   }
 
   .parcours {
@@ -720,14 +706,10 @@
 
 /* white box with text of aside and a */
 
-.text-box {
-  padding: 47px;
-}
-
-
+/* text boxes related to profiles section - smartphone and tablet*/
 
 .title-profils  {
-  font-size: .9rem !important;
+  font-size: 1rem !important;
 }
 
 .title-profils span {
@@ -740,10 +722,10 @@
   }
 
   .title-profils span {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
   }
 
-
+}
 /* text boxes related to profiles section - ONLY DISPLAYED IN DESKTOP FORMAT*/
 
 .text-box-profils {
@@ -785,7 +767,7 @@
   padding: 27px 0;
 }
 
-.title {
+.title { /*time title in incontournables*/
   font-size: 48px;
 }
 
@@ -800,12 +782,9 @@
     font-size: 3rem;
   }
 
-
 }
 
-
 @media (min-width: 1000px) {
-
   .text-box-parcours {
     padding: 25px;
     height: 139px;
@@ -815,7 +794,6 @@
   .text-box-parcours h3 {
     font-size: 1.7rem;
   }
-
 }
 
 
@@ -843,7 +821,8 @@
   content: "\e907";
   font-family: "pba";
   font-size: 1rem;
-  color: rgb(134, 134, 135);
+  color: #000;
+  margin-right: 5px;
 }
 
 @media (min-width:576px) {
