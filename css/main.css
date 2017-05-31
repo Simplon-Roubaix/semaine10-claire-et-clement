@@ -19,12 +19,14 @@ li {
 header {
   background-color: #1D1D1E;
 
-  position: sticky;
-  top:0;
+
 }
 
 #tete {
   padding: 0;
+  position: sticky;
+  top:0;
+  z-index: 50;
 }
 
 .navphone img {
@@ -74,9 +76,9 @@ content: "\f0c9";
   background-color: #1D1D1E;
   border: 7px solid white;
   position: absolute;
-  top : 80px;
+  top : 77px;
   width: 100%;
-  height: 87vh;
+  height: 88vh;
   z-index: 100;
 
 }
@@ -119,7 +121,7 @@ margin-left: 0;
     border-style: solid;
     border-width: 0 7px 7px;
     border-color: transparent transparent #FFF;
-    top: -17px;
+    top: -14px;
     right: 23px;
 }
 
@@ -156,7 +158,7 @@ header button {
    with: 100px;
 }
 
-.fa.fa-caret-down {
+#tete .fa.fa-caret-down {
   position: absolute;
   top : 16px;
   left : 85%;
@@ -343,6 +345,7 @@ transition: all 0.3s ease 0s;
 
 #accueil .carousel-caption {
   height: 90%;
+  /*padding: 20px;*/
 
 }
 
@@ -382,7 +385,7 @@ height: 15px;
   text-align: center;
 }
 
-.fa.fa-caret-down {
+.oeuvrescles .fa.fa-caret-down {
   color: white;
   font-size: 40px;
 }
@@ -868,6 +871,143 @@ stroke-miterlimit: 10;
   background-image: url("../img/visiter/incontournables-3.jpg");
 }
 
+/*********************************************début footer****************************************************/
+
+footer {
+  background-color: #1D1D1E;
+  font-family: "lovelo";
+  color: white;
+
+}
+
+footer ul  {
+  list-style: none;
+  padding-left: 0;
+}
+footer>ul>li{
+  padding: 20px;
+  font-size: 15px;
+}
+
+
+
+
+
+footer ul li ul li {
+  font-size:10px;
+  font-weight: lighter;
+}
+footer *[class^="icon"],footer .icon-musee-prive::before {
+  font-size: 20px;
+  font-family: "pba";
+  color: white;
+}
+
+footer .icon-clock::before {
+  color: white;
+}
+
+
+
+.icon-marker::before {
+    content: "\e91e";
+
+}
+
+.icon-presse::before {
+    content: "\e927";
+
+}
+
+/*footer .icon-send::before {
+    content: "\e92b";
+    font-size: 45px;
+
+}*/
+
+.footphone {
+  width: 274px;
+  margin: auto;
+}
+
+
+
+.icon-twitter-circled::before {
+
+    content: "\e934";
+
+
+}
+
+.icon-facebook-circled::before {
+    content: "\e93a";
+}
+
+.icon-instagram::before {
+    content: "\e91c";
+}
+
+.icon-vimeo-circled::before {
+    content: "\e936";
+}
+
+.icon-youtube-circled::before {
+    content: "\e93c";
+}
+
+footer nav {
+  margin-top: 40px;
+}
+
+footer nav *[class^="icon"] {
+  font-size: 35px;
+}
+
+footer nav *[class^="icon"]:hover {
+  color :#D8383F;
+}
+
+#navicon {
+  margin-bottom: 0;
+}
+
+@media (min-width : 660px) {
+  .footphone {
+    width: 450px;
+
+  }
+
+  footer ul li, footer ul li ul li {
+
+    font-size: 25px;
+  }
+
+  footer .icon-clock::before {
+      content: "\e907";
+  font-size: 45px;
+  color: white;
+  }
+
+  footer *[class^="icon"],footer .icon-musee-prive::before {
+    font-size: 45px;
+  }
+
+  footer nav *[class^="icon"] {
+    font-size: 45px;
+  }
+
+
+
+
+
+footer .icon-send::before {
+
+
+    font-size: 45px;
+
+}
+}
+
 
 @media (min-width:576px) {
   .title-profils  {
@@ -941,7 +1081,7 @@ stroke-miterlimit: 10;
   font-size:30px;
     }
 
-  }
+
   ************************************************fin header**********************************************
 
   .collection-phone {
@@ -1014,6 +1154,10 @@ stroke-miterlimit: 10;
 
   .parcours {
     height: 482px;
+  }
+
+  #incontournablepc {
+    margin-bottom: 20px;
   }
 
 }
@@ -1194,6 +1338,73 @@ width: 100%
 
 .lille, .culturel {
   width: 500px;
+}
+
+footer>ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+footer>ul>li {
+  width: 24%;
+}
+
+.footphone {
+  width: 92%;
+}
+
+footer ul li ul li {
+  font-size: 12px;
+}
+
+footer .icon-send::before {
+  font-size: 20px;
+}
+
+
+.icon-share-circled::before {
+  content: "\e939";
+}
+footer .iconpc *[class^="icon"] {
+font-size: 30px;
+}
+
+footer hr {
+border: 2px solid white;
+width: 100%;
+}
+
+.petitpc {
+font-size: 12px ;
+}
+
+.petitpc.up {
+  position: relative;
+  bottom: 10px;
+}
+
+
+
+.petitpc *[class^="icon"] {
+font-size: 20px;
+}
+.mecene img {
+width: 200px;
+}
+
+.mecene {
+margin-left: auto;
+width: 600px;
+padding: 30px;
+}
+
+.mecene p {
+font-size: 10px;
+color: grey;
+}
+footer .iconpc *[class^="icon"]:hover {
+color: #D8383F
 }
 
 }

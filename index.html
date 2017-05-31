@@ -1,99 +1,101 @@
 <!doctype html>
 <html class="no-js" lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>palais des beaux arts</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>palais des beaux arts</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-<script src="https://use.fontawesome.com/01d5fc61d4.js"></script>
+    <link rel="icon" href="favicon.png">
+    <!-- Place favicon.ico in the root directory -->
 
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-      <header class="container-fluid" id="tete">
-          <!-- ******************************************************************nav pour pc************************************************* -->
-          <nav class="d-flex hidden-lg-down navpc justify-content-between">
+    <script src="https://use.fontawesome.com/01d5fc61d4.js"></script>
 
-              <ul class="d-flex justify-content-between align-items-center " id="listepc">
-                  <li>
-                      <h1 class="ml-4"><a href="index.html">palais beaux-arts lille</a></h1></li>
-                  <li><a href="#">collections</a></li>
-                  <li><a href="visiter.html">visiter</a></li>
-                  <li><a href="#">agenda</a></li>
-                  <li><a href="#">information</a></li>
-                  <li><input type="text" name="recherche" ><i class="fa fa-search" aria-hidden="true"></i>
-                  </li>
-                  <li> <select id="langue" name="laguage">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <header class="container-fluid" id="tete">
+        <!-- ******************************************************************nav pour pc************************************************* -->
+        <nav class="d-flex hidden-lg-down navpc justify-content-between">
+
+            <ul class="d-flex justify-content-between align-items-center " id="listepc">
+                <li>
+                    <h1 class="ml-4"><a href="index.html">palais beaux-arts lille</a></h1></li>
+                <li><a href="#">collections</a></li>
+                <li><a href="visiter.html">visiter</a></li>
+                <li><a href="#">agenda</a></li>
+                <li><a href="#">information</a></li>
+                <li><input type="text" name="recherche"><i class="fa fa-search" aria-hidden="true"></i>
+                </li>
+                <li> <select id="langue" name="laguage">
          <option value="">Francais</option>
          <option> anglais</option>
 
        </select></li>
-                  <li class="mr-1">
-                      <a href="#"><img src="img/accueil/logo-lille.svg" alt=""></a>
-                  </li>
-              </ul>
-              <i class="fa fa-caret-down" aria-hidden="true"></i>
-          </nav>
+                <li class="mr-1">
+                    <a href="#"><img src="img/accueil/logo-lille.svg" alt=""></a>
+                </li>
+            </ul>
+            <i class="fa fa-caret-down" aria-hidden="true"></i>
+        </nav>
 
-          <!-- ***********************************************************fin nav pc *********************************************** -->
-          <!-- *************************************************nav pour phone et tab*************************************************** -->
+        <!-- ***********************************************************fin nav pc *********************************************** -->
+        <!-- *************************************************nav pour phone et tab*************************************************** -->
 
-          <nav class="navbar navbar-toggleable-lg  navphone d-flex hidden-xl-up">
-              <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbHF1ZV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMTc3IDIzMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTc3IDIzMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtjbGlwLXBhdGg6dXJsKCNTVkdJRF8yXyk7fQoJLnN0MXtmaWxsOiNGRkZGRkY7fQo8L3N0eWxlPgo8Zz4KCTxnPgoJCTxkZWZzPgoJCQk8cmVjdCBpZD0iU1ZHSURfMV8iIHg9IjAiIHdpZHRoPSIxNzYuNyIgaGVpZ2h0PSIyMzMiLz4KCQk8L2RlZnM+CgkJPGNsaXBQYXRoIGlkPSJTVkdJRF8yXyI+CgkJCTx1c2UgeGxpbms6aHJlZj0iI1NWR0lEXzFfIiAgc3R5bGU9Im92ZXJmbG93OnZpc2libGU7Ii8+CgkJPC9jbGlwUGF0aD4KCQk8ZyBjbGFzcz0ic3QwIj4KCQkJPHBhdGggY2xhc3M9InN0MSIgZD0iTTE3NS43LDF2MjMwLjhIMVYxSDE3NS43IE0xNzYuNywwSDB2MjMyLjhoMTc2LjdWMEwxNzYuNywweiIvPgoJCTwvZz4KCTwvZz4KCTxnPgoJCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xMzAuNCw2NS44YzAuNi02LDguOS01LjMsOC45LTUuM2wtMy4xLTMuOWMwLDAtMy44LTAuNS01LjQsMy44bC0wLjEsMC4ybC0wLjEsMC4xbC0wLjEtMC4xbDAuMS0wLjIKCQkJYzEtNC4yLDMuMy03LjQsMy4zLTcuNGwtNC4yLTUuNmwtNC4yLDUuNmMwLDAsMi4yLDMuMiwzLjMsNy40bDAuMSwwLjJsLTAuMSwwLjFsLTAuMS0wLjFsLTAuMS0wLjJjLTEuNy00LjMtNS40LTMuOC01LjQtMy44CgkJCWwtMy4xLDMuOWMwLDAsOC4zLTAuOCw4LjksNS4zSDEzMC40eiBNMTMwLjQsNjUuOCIvPgoJCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xMDAuMyw2Mi40Qzk5LDYyLjQsOTksNjAuNiw5OSw1OWMwLTEuNywwLTMuMiwxLjItMy4yYzEuMSwwLDEuMiwxLjUsMS4yLDMuNAoJCQlDMTAxLjQsNjEuMiwxMDEuMyw2Mi40LDEwMC4zLDYyLjQgTTEwMS41LDYzdjEuM2gyLjdWNDkuNGgtMi44djUuN2wwLTAuMWMtMC40LTAuOS0xLjMtMS40LTIuMy0xLjRjLTIuMywwLTIuOCwyLjItMi44LDUuNQoJCQljMCwzLjcsMC45LDUuMywzLDUuM0MxMDAuNyw2NC41LDEwMS4zLDYzLjUsMTAxLjUsNjNMMTAxLjUsNjN6IE0xMDEuNSw2MyIvPgoJCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik02Mi4yLDU0bC0xLjIsNy43aC0wLjJMNTkuNyw1NGgtMi45bDIuNCwxMC4yaDMuNEw2NSw1NEg2Mi4yeiBNNjIuMiw1NCIvPgoJCTxyZWN0IHg9IjY3IiB5PSI1NCIgY2xhc3M9InN0MSIgd2lkdGg9IjIuOCIgaGVpZ2h0PSIxMC4yIi8+CgkJPHJlY3QgeD0iNzIuNiIgeT0iNDkuNCIgY2xhc3M9InN0MSIgd2lkdGg9IjIuOCIgaGVpZ2h0PSIxNC44Ii8+CgkJPHJlY3QgeD0iNzguMiIgeT0iNDkuNCIgY2xhc3M9InN0MSIgd2lkdGg9IjIuOCIgaGVpZ2h0PSIxNC44Ii8+CgkJPHJlY3QgeD0iNjciIHk9IjQ5LjQiIGNsYXNzPSJzdDEiIHdpZHRoPSIyLjgiIGhlaWdodD0iMi43Ii8+CgkJPHBhdGggY2xhc3M9InN0MSIgZD0iTTg4LjIsNTcuOWgtMi4zdi0wLjFjMC0xLjIsMC4xLTIuNCwxLjItMi40YzAuOSwwLDEuMSwwLjksMS4xLDIuNFY1Ny45eiBNODcsNTMuN2MtMi43LDAtMy45LDEuNS0zLjksNQoJCQljMCwzLjIsMC4zLDUuOCwzLjksNS44YzIuNCwwLDMuNy0xLjIsMy43LTMuNmgtMi41Yy0wLjEsMS4yLTAuMywxLjktMS4yLDEuOWMtMSwwLTEuMi0xLTEuMi0yLjV2LTAuN2g1CgkJCUM5MC44LDU2LDkwLjUsNTMuNyw4Nyw1My43Ii8+CgkJPHBhdGggY2xhc3M9InN0MSIgZD0iTTExMS40LDU3LjlIMTA5di0wLjFjMC0xLjIsMC4xLTIuNCwxLjItMi40YzAuOSwwLDEuMSwwLjksMS4xLDIuNFY1Ny45eiBNMTEwLjIsNTMuN2MtMi43LDAtMy45LDEuNS0zLjksNQoJCQljMCwzLjIsMC4zLDUuOCwzLjksNS44YzIuNCwwLDMuNy0xLjIsMy43LTMuNmgtMi41Yy0wLjEsMS4yLTAuMywxLjktMS4yLDEuOWMtMSwwLTEuMi0xLTEuMi0yLjV2LTAuN2g1CgkJCUMxMTQsNTYsMTEzLjcsNTMuNywxMTAuMiw1My43Ii8+CgkJPHJlY3QgeD0iMzAuOCIgeT0iNzAuNCIgY2xhc3M9InN0MSIgd2lkdGg9IjEyLjIiIGhlaWdodD0iMTA4LjYiLz4KCQk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNzkuNCwxNzloMTIuMmwwLTkwLjFINzkuNEw3OS40LDE3OXogTTc5LjQsMTc5Ii8+CgkJPHJlY3QgeD0iMTAzLjgiIHk9Ijc2LjIiIGNsYXNzPSJzdDEiIHdpZHRoPSIxMi4yIiBoZWlnaHQ9Ijc5LjciLz4KCQk8cmVjdCB4PSI1NS4xIiB5PSIxMDAuNSIgY2xhc3M9InN0MSIgd2lkdGg9IjEyLjIiIGhlaWdodD0iNjEuMSIvPgoJCTxyZWN0IHg9IjU1LjEiIHk9Ijc2LjIiIGNsYXNzPSJzdDEiIHdpZHRoPSIxMi4yIiBoZWlnaHQ9IjEyLjIiLz4KCQk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMTQ4LDEwNS42Vjk1LjFoLTIwdjcyLjNoMjBWMTU3SDE0MHYtMjAuNWg4LjF2LTEwLjVIMTQwdi0yMC41SDE0OHogTTE0OCwxMDUuNiIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
-                  alt="">
-              <ul class="d-flex">
-                  <li class="icon icon-search mr-4">
-                  </li>
-                  <li class="icon-infos icon mr-4"></li>
-                  <li> <button class="collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="nav-icon1">
+        <nav class="navbar navbar-toggleable-lg  navphone d-flex hidden-xl-up">
+            <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbHF1ZV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMTc3IDIzMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTc3IDIzMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtjbGlwLXBhdGg6dXJsKCNTVkdJRF8yXyk7fQoJLnN0MXtmaWxsOiNGRkZGRkY7fQo8L3N0eWxlPgo8Zz4KCTxnPgoJCTxkZWZzPgoJCQk8cmVjdCBpZD0iU1ZHSURfMV8iIHg9IjAiIHdpZHRoPSIxNzYuNyIgaGVpZ2h0PSIyMzMiLz4KCQk8L2RlZnM+CgkJPGNsaXBQYXRoIGlkPSJTVkdJRF8yXyI+CgkJCTx1c2UgeGxpbms6aHJlZj0iI1NWR0lEXzFfIiAgc3R5bGU9Im92ZXJmbG93OnZpc2libGU7Ii8+CgkJPC9jbGlwUGF0aD4KCQk8ZyBjbGFzcz0ic3QwIj4KCQkJPHBhdGggY2xhc3M9InN0MSIgZD0iTTE3NS43LDF2MjMwLjhIMVYxSDE3NS43IE0xNzYuNywwSDB2MjMyLjhoMTc2LjdWMEwxNzYuNywweiIvPgoJCTwvZz4KCTwvZz4KCTxnPgoJCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xMzAuNCw2NS44YzAuNi02LDguOS01LjMsOC45LTUuM2wtMy4xLTMuOWMwLDAtMy44LTAuNS01LjQsMy44bC0wLjEsMC4ybC0wLjEsMC4xbC0wLjEtMC4xbDAuMS0wLjIKCQkJYzEtNC4yLDMuMy03LjQsMy4zLTcuNGwtNC4yLTUuNmwtNC4yLDUuNmMwLDAsMi4yLDMuMiwzLjMsNy40bDAuMSwwLjJsLTAuMSwwLjFsLTAuMS0wLjFsLTAuMS0wLjJjLTEuNy00LjMtNS40LTMuOC01LjQtMy44CgkJCWwtMy4xLDMuOWMwLDAsOC4zLTAuOCw4LjksNS4zSDEzMC40eiBNMTMwLjQsNjUuOCIvPgoJCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xMDAuMyw2Mi40Qzk5LDYyLjQsOTksNjAuNiw5OSw1OWMwLTEuNywwLTMuMiwxLjItMy4yYzEuMSwwLDEuMiwxLjUsMS4yLDMuNAoJCQlDMTAxLjQsNjEuMiwxMDEuMyw2Mi40LDEwMC4zLDYyLjQgTTEwMS41LDYzdjEuM2gyLjdWNDkuNGgtMi44djUuN2wwLTAuMWMtMC40LTAuOS0xLjMtMS40LTIuMy0xLjRjLTIuMywwLTIuOCwyLjItMi44LDUuNQoJCQljMCwzLjcsMC45LDUuMywzLDUuM0MxMDAuNyw2NC41LDEwMS4zLDYzLjUsMTAxLjUsNjNMMTAxLjUsNjN6IE0xMDEuNSw2MyIvPgoJCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik02Mi4yLDU0bC0xLjIsNy43aC0wLjJMNTkuNyw1NGgtMi45bDIuNCwxMC4yaDMuNEw2NSw1NEg2Mi4yeiBNNjIuMiw1NCIvPgoJCTxyZWN0IHg9IjY3IiB5PSI1NCIgY2xhc3M9InN0MSIgd2lkdGg9IjIuOCIgaGVpZ2h0PSIxMC4yIi8+CgkJPHJlY3QgeD0iNzIuNiIgeT0iNDkuNCIgY2xhc3M9InN0MSIgd2lkdGg9IjIuOCIgaGVpZ2h0PSIxNC44Ii8+CgkJPHJlY3QgeD0iNzguMiIgeT0iNDkuNCIgY2xhc3M9InN0MSIgd2lkdGg9IjIuOCIgaGVpZ2h0PSIxNC44Ii8+CgkJPHJlY3QgeD0iNjciIHk9IjQ5LjQiIGNsYXNzPSJzdDEiIHdpZHRoPSIyLjgiIGhlaWdodD0iMi43Ii8+CgkJPHBhdGggY2xhc3M9InN0MSIgZD0iTTg4LjIsNTcuOWgtMi4zdi0wLjFjMC0xLjIsMC4xLTIuNCwxLjItMi40YzAuOSwwLDEuMSwwLjksMS4xLDIuNFY1Ny45eiBNODcsNTMuN2MtMi43LDAtMy45LDEuNS0zLjksNQoJCQljMCwzLjIsMC4zLDUuOCwzLjksNS44YzIuNCwwLDMuNy0xLjIsMy43LTMuNmgtMi41Yy0wLjEsMS4yLTAuMywxLjktMS4yLDEuOWMtMSwwLTEuMi0xLTEuMi0yLjV2LTAuN2g1CgkJCUM5MC44LDU2LDkwLjUsNTMuNyw4Nyw1My43Ii8+CgkJPHBhdGggY2xhc3M9InN0MSIgZD0iTTExMS40LDU3LjlIMTA5di0wLjFjMC0xLjIsMC4xLTIuNCwxLjItMi40YzAuOSwwLDEuMSwwLjksMS4xLDIuNFY1Ny45eiBNMTEwLjIsNTMuN2MtMi43LDAtMy45LDEuNS0zLjksNQoJCQljMCwzLjIsMC4zLDUuOCwzLjksNS44YzIuNCwwLDMuNy0xLjIsMy43LTMuNmgtMi41Yy0wLjEsMS4yLTAuMywxLjktMS4yLDEuOWMtMSwwLTEuMi0xLTEuMi0yLjV2LTAuN2g1CgkJCUMxMTQsNTYsMTEzLjcsNTMuNywxMTAuMiw1My43Ii8+CgkJPHJlY3QgeD0iMzAuOCIgeT0iNzAuNCIgY2xhc3M9InN0MSIgd2lkdGg9IjEyLjIiIGhlaWdodD0iMTA4LjYiLz4KCQk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNzkuNCwxNzloMTIuMmwwLTkwLjFINzkuNEw3OS40LDE3OXogTTc5LjQsMTc5Ii8+CgkJPHJlY3QgeD0iMTAzLjgiIHk9Ijc2LjIiIGNsYXNzPSJzdDEiIHdpZHRoPSIxMi4yIiBoZWlnaHQ9Ijc5LjciLz4KCQk8cmVjdCB4PSI1NS4xIiB5PSIxMDAuNSIgY2xhc3M9InN0MSIgd2lkdGg9IjEyLjIiIGhlaWdodD0iNjEuMSIvPgoJCTxyZWN0IHg9IjU1LjEiIHk9Ijc2LjIiIGNsYXNzPSJzdDEiIHdpZHRoPSIxMi4yIiBoZWlnaHQ9IjEyLjIiLz4KCQk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMTQ4LDEwNS42Vjk1LjFoLTIwdjcyLjNoMjBWMTU3SDE0MHYtMjAuNWg4LjF2LTEwLjVIMTQwdi0yMC41SDE0OHogTTE0OCwxMDUuNiIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+                alt="">
+            <ul class="d-flex">
+                <li class="icon icon-search mr-4">
+                </li>
+                <li class="icon-infos icon mr-4"></li>
+                <li> <button class="collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="nav-icon1">
           <i   class="fa fa-bars fa-2x" aria-hidden="true"></i>
         </button>
 
-                  </li>
-              </ul>
+                </li>
+            </ul>
 
 
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <div class="triangleMenu">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="triangleMenu">
 
-                  </div>
-                  <ul class="navbar-nav mr-auto">
-                      <li class="nav-item active ">
-                          <a class="nav-link" href="index.html"> <span class="icon-chef-oeuvre ml-4 icon mr-5"></span>Accueil</a>
-                          <hr>
-                      </li>
-                      <li class="nav-item ">
-                          <a class="nav-link " href="visiter.html"><span class="icon-infos icon ml-4 mr-5"></span>Visiter</a>
-                          <hr>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#"><span class="icon-send icon ml-4 mr-5"></span>contactez nous</a>
-                      </li>
-                  </ul>
+                </div>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="index.html"> <span class="icon-chef-oeuvre ml-4 icon mr-5"></span>Accueil</a>
+                        <hr>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="visiter.html"><span class="icon-infos icon ml-4 mr-5"></span>Visiter</a>
+                        <hr>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="icon-send icon ml-4 mr-5"></span>contactez nous</a>
+                    </li>
+                </ul>
 
-              </div>
-          </nav>
-          <!-- *******************************************************fin nav pour phone et tab**************************************** -->
+            </div>
+        </nav>
+        <!-- *******************************************************fin nav pour phone et tab**************************************** -->
 
-      </header>
+    </header>
 
-      <main  id="accueil">
+    <main id="accueil">
 
         <!-- *****************************************début collection pour phone et tablette************************************************ -->
         <section class="collection-phone hidden-xl-up d-flex flex-column justify-content-around">
-          <div class="container">
+            <div class="container">
 
-          <a href="#"><h1>palais beaux-arts lille</h1>
+                <a href="#"><h1>palais beaux-arts lille</h1>
           <div class="hautdroitebas">
 
           </div>
@@ -104,14 +106,15 @@
           <div class="gauchedroite">
 
           </div></a>
-<a href="#"> <span class="icon icon-parcours"></span>
-          <h2>visiter</h2>
-          <p>infos/parcours/applications</p>
-          <div class="basgauchehaut">
+                <a href="#"> <span class="icon icon-parcours"></span>
+                    <h2>visiter</h2>
+                    <p>infos/parcours/applications</p>
+                    <div class="basgauchehaut">
 
-          </div></a>
+                    </div>
+                </a>
 
-        </div>
+            </div>
         </section>
 
         <!-- *****************************************fin collection pour phone et tablette************************************************ -->
@@ -119,34 +122,37 @@
 
         <section class="collection-visiter-pc hidden-lg-down row justify-content-around">
 
-          <article class="collection col-xl-5">
-          <a href="#"> <div class="hautdroitebas">
+            <article class="collection col-xl-5">
+                <a href="#">
+                    <div class="hautdroitebas">
 
-            </div>
-            <span class="icon icon-chef-oeuvre"></span>
-            <h2>Collection</h2>
-            <p>découvrez les oeuvres</p>
-            <div class="basdroitehaut">
+                    </div>
+                    <span class="icon icon-chef-oeuvre"></span>
+                    <h2>Collection</h2>
+                    <p>découvrez les oeuvres</p>
+                    <div class="basdroitehaut">
 
-            </div></a>
+                    </div>
+                </a>
 
 
-          </article>
+            </article>
 
-          <article class="visiter col-xl-5">
-            <a href="#">
-            <div class="hautgauchebas">
+            <article class="visiter col-xl-5">
+                <a href="#">
+                    <div class="hautgauchebas">
 
-            </div>
-            <span class="icon icon-parcours"></span>
-            <h2>visiter</h2>
-            <p>infos/parcours/applications</p>
-            <div class="basgauchehaut">
+                    </div>
+                    <span class="icon icon-parcours"></span>
+                    <h2>visiter</h2>
+                    <p>infos/parcours/applications</p>
+                    <div class="basgauchehaut">
 
-            </div></a>
+                    </div>
+                </a>
 
-          </article>
-          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </article>
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
 
 
         </section>
@@ -155,159 +161,172 @@
 
         <!-- *************************************************début carousel************************************************************* -->
         <section id="carouselExampleIndicators" class="carousel" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox">
-    <figure class="carousel-item active" id="img1">
-      <!-- <img class="d-block img-fluid" src="img/accueil/LE-MUSEE-SE-REINVENTE.jpg" alt="First slide"> -->
-      <div class="carousel-caption d-flex flex-column justify-content-between">
-        <p>Actualités</p>
-        <div class="hautgauchedroitebas">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <figure class="carousel-item active" id="img1">
+                    <!-- <img class="d-block img-fluid" src="img/accueil/LE-MUSEE-SE-REINVENTE.jpg" alt="First slide"> -->
+                    <div class="carousel-caption d-flex flex-column justify-content-between">
+                        <p>Actualités</p>
+                        <div class="hautgauchedroitebas">
 
-        </div>
-    <a href="#">
-      <span class="icon-musee-prive icon"></span>
-      <h2>Le musée se réinvente</h2>
-    <h3>1ere étape : L'atrium</h3>
-    <p>Nouveaux espaces, nouveaux outils de médiation numérique.. a découvrir dès le 23 juin 2016</p></a>
-    <div class="basgauchedroitehaut">
+                        </div>
+                        <a href="#">
+                            <span class="icon-musee-prive icon"></span>
+                            <h2>Le musée se réinvente</h2>
+                            <h3>1ere étape : L'atrium</h3>
+                            <p>Nouveaux espaces, nouveaux outils de médiation numérique.. a découvrir dès le 23 juin 2016</p>
+                        </a>
+                        <div class="basgauchedroitehaut">
 
-    </div>
-  </div>
-</figure>
-    <figure class="carousel-item" id="img2">
-      <!-- <img class="d-block img-fluid" src="img/accueil/NOUVEAU-CAFE!-NOUVELLE-BOUTIQUE.jpg" alt="Second slide"> -->
-      <div class="carousel-caption d-flex flex-column justify-content-between">
-        <p>Actualités</p>
-        <div class="hautgauchedroitebas">
+                        </div>
+                    </div>
+                </figure>
+                <figure class="carousel-item" id="img2">
+                    <!-- <img class="d-block img-fluid" src="img/accueil/NOUVEAU-CAFE!-NOUVELLE-BOUTIQUE.jpg" alt="Second slide"> -->
+                    <div class="carousel-caption d-flex flex-column justify-content-between">
+                        <p>Actualités</p>
+                        <div class="hautgauchedroitebas">
 
-        </div>
-    <a href="#">
+                        </div>
+                        <a href="#">
 
-      <span class="icon-place icon"></span>
-      <h2>Nouveau café ! nouvelle boutique ! </h2>
-    <h3>Découvrez deux nouveaux espaces entièrement</h3>
-    <p>c'est ouvert ! </p></a>
-    <div class="basgauchedroitehaut">
+                            <span class="icon-place icon"></span>
+                            <h2>Nouveau café ! nouvelle boutique ! </h2>
+                            <h3>Découvrez deux nouveaux espaces entièrement</h3>
+                            <p>c'est ouvert ! </p>
+                        </a>
+                        <div class="basgauchedroitehaut">
 
-    </div>
-  </div>
-</figure>
-    <figure class="carousel-item" id="img3">
-      <!-- <img class="d-block img-fluid" src="img/accueil/OPEN-MUSEUM-4-ALAIN-PASSARD.jpg" alt="Third slide"> -->
-      <div class="carousel-caption d-flex flex-column justify-content-between">
-        <p>évenement</p>
-        <div class="hautgauchedroitebas">
+                        </div>
+                    </div>
+                </figure>
+                <figure class="carousel-item" id="img3">
+                    <!-- <img class="d-block img-fluid" src="img/accueil/OPEN-MUSEUM-4-ALAIN-PASSARD.jpg" alt="Third slide"> -->
+                    <div class="carousel-caption d-flex flex-column justify-content-between">
+                        <p>évenement</p>
+                        <div class="hautgauchedroitebas">
 
-        </div>
-        <a href="#">
-        <span class="icon-parent icon"></span>
-    <h2>open museum #4 Alain Passard</h2>
-    <h3>Un cuisinier reveille le palais</h3>
-    <p>Du 08 avril au 16 juillet 2016</p></a>
-    <div class="basgauchedroitehaut">
+                        </div>
+                        <a href="#">
+                            <span class="icon-parent icon"></span>
+                            <h2>open museum #4 Alain Passard</h2>
+                            <h3>Un cuisinier reveille le palais</h3>
+                            <p>Du 08 avril au 16 juillet 2016</p>
+                        </a>
+                        <div class="basgauchedroitehaut">
 
-    </div>
-  </div>
-</figure>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</section>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </section>
 
-<!-- **************************************fin carousel********************************************************************* -->
-<!-- **************************************oeuvres cles********************************************************************* -->
+        <!-- **************************************fin carousel********************************************************************* -->
+        <!-- **************************************oeuvres cles********************************************************************* -->
 
-<section class="oeuvrescles">
-  <h2>4 oeuvres cles</h2>
-  <p>A découvrir</p>
-  <i class="fa fa-caret-down" aria-hidden="true"></i>
-
-
-</section>
-
-<section class="tableaux">
-  <a href="#" class="col-xl-3"><article  id="tableau1">
-    <div class="inttableau">
-      <h5>Faux Bosch, Vrai ...</h5>
-      <p>Jerome boasch</p>
-
-    </div>
-
-  </article></a>
-
-  <a href="#" class="col-xl-3"><article  id="tableau2">
-    <div class="inttableau">
-      <h5> La madone est un home</h5>
-      <p>raphael</p>
-
-    </div>
-
-  </article></a>
-
-  <a href="#" class="col-xl-3"><article  id="tableau3">
-    <div class="inttableau">
-      <h5>Miroir mon beau miroir</h5>
-      <p>Francisco d hoya et lucientes</p>
-
-    </div>
-
-  </article></a>
-
-  <a href="#" class="col-xl-3"><article  id="tableau4">
-    <div class="inttableau">
-      <h5>1 cm de persepctive</h5>
-      <p>donatello</p>
-
-    </div>
-
-  </article></a>
-
-</section>
-
-<!-- **************************************fin oeuvres cles********************************************************************* -->
-<!-- **************************************fdébut découvris plus d'oeuvresd********************************************************************* -->
-
-<section class="plusdoeuvre">
-  <a href="#"><span class="icon-archive icon mr-2"></span>Afficher plus d'oeuvres</a>
-  <div class="d-flex row justify-content-center insta">
-    <i class="fa fa-instagram mr-2" aria-hidden="true"></i>
-    <p>Instagram <br> <span>#PBA LILLE</span></p>
+        <section class="oeuvrescles">
+            <h2>4 oeuvres cles</h2>
+            <p>A découvrir</p>
+            <i class="fa fa-caret-down" aria-hidden="true"></i>
 
 
-  </div>
+        </section>
 
-</section>
+        <section class="tableaux">
+            <a href="#" class="col-xl-3">
+                <article id="tableau1">
+                    <div class="inttableau">
+                        <h5>Faux Bosch, Vrai ...</h5>
+                        <p>Jerome boasch</p>
 
-<!-- **************************************fin découvris plus d'oeuvresd********************************************************************* -->
-<!-- **************************************début insta********************************************************************* -->
+                    </div>
 
-<section class="instagra d-flex flex-row flex-wrap flex-xl-nowrap">
-  <figure><img src="img/accueil/18513545_370080240055691_6320440595386990592_n.jpg" class="img-fluid" alt=""></figure>
-  <figure><img src="img/accueil/18579512_1883351998579530_7010811619911401472_n.jpg" class="img-fluid" alt=""></figure>
-  <figure><img src="img/accueil/18581286_648821428642172_6192723661166739456_n.jpg" class="img-fluid" alt=""></figure>
-  <figure><img src="img/accueil/18644938_126795614552561_9089761269338079232_n.jpg" class="img-fluid" alt=""></figure>
-  <figure><img src="img/accueil/18644943_673507129515159_587878111111020544_n.jpg" class="img-fluid hidden-lg-down" alt="">
+                </article>
+            </a>
 
-  </figure>
+            <a href="#" class="col-xl-3">
+                <article id="tableau2">
+                    <div class="inttableau">
+                        <h5> La madone est un home</h5>
+                        <p>raphael</p>
+
+                    </div>
+
+                </article>
+            </a>
+
+            <a href="#" class="col-xl-3">
+                <article id="tableau3">
+                    <div class="inttableau">
+                        <h5>Miroir mon beau miroir</h5>
+                        <p>Francisco d hoya et lucientes</p>
+
+                    </div>
+
+                </article>
+            </a>
+
+            <a href="#" class="col-xl-3">
+                <article id="tableau4">
+                    <div class="inttableau">
+                        <h5>1 cm de persepctive</h5>
+                        <p>donatello</p>
+
+                    </div>
+
+                </article>
+            </a>
+
+        </section>
+
+        <!-- **************************************fin oeuvres cles********************************************************************* -->
+        <!-- **************************************fdébut découvris plus d'oeuvresd********************************************************************* -->
+
+        <section class="plusdoeuvre">
+            <a href="#"><span class="icon-archive icon mr-2"></span>Afficher plus d'oeuvres</a>
+            <div class="d-flex row justify-content-center insta">
+                <i class="fa fa-instagram mr-2" aria-hidden="true"></i>
+                <p>Instagram <br> <span>#PBA LILLE</span></p>
 
 
-</section>
+            </div>
 
-<!-- **************************************fin insta********************************************************************* -->
-<!-- **************************************début applis********************************************************************* -->
+        </section>
 
- <a class="lienapplis" href="#"><section class="applis">
-  <svg class="svg-tablette" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  x="0px" y="0px"  width="167px" height="75px" viewBox="0 0 159 100" style="enable-background:new 0 0 200 120" preserveAspectRatio="xMidYMid meet" xml:space="preserve">
+        <!-- **************************************fin découvris plus d'oeuvresd********************************************************************* -->
+        <!-- **************************************début insta********************************************************************* -->
+
+        <section class="instagra d-flex flex-row flex-wrap flex-xl-nowrap">
+            <figure><img src="img/accueil/18513545_370080240055691_6320440595386990592_n.jpg" class="img-fluid" alt=""></figure>
+            <figure><img src="img/accueil/18579512_1883351998579530_7010811619911401472_n.jpg" class="img-fluid" alt=""></figure>
+            <figure><img src="img/accueil/18581286_648821428642172_6192723661166739456_n.jpg" class="img-fluid" alt=""></figure>
+            <figure><img src="img/accueil/18644938_126795614552561_9089761269338079232_n.jpg" class="img-fluid" alt=""></figure>
+            <figure><img src="img/accueil/18644943_673507129515159_587878111111020544_n.jpg" class="img-fluid hidden-lg-down" alt="">
+
+            </figure>
+
+
+        </section>
+
+        <!-- **************************************fin insta********************************************************************* -->
+        <!-- **************************************début applis********************************************************************* -->
+
+        <a class="lienapplis" href="#">
+            <section class="applis">
+                <svg class="svg-tablette" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="167px" height="75px" viewBox="0 0 159 100" style="enable-background:new 0 0 200 120" preserveAspectRatio="xMidYMid meet"
+                    xml:space="preserve">
 <defs>
 </defs>
 <path class="st0" d="M104.3,74.5h-98c-2.9,0-5.3-2.4-5.3-5.3v-63C1,3.4,3.4,1,6.3,1h98c2.9,0,5.3,2.4,5.3,5.3v63
@@ -333,51 +352,143 @@
 	<path class="st2" d="M69.2,28.4h0.3l7,17.3h-3.7l-0.7-1.8h-5.5L66,45.7h-3.8L69.2,28.4z M70.9,40.7l-1.5-4.3l-1.6,4.3H70.9z"></path>
 </g>
 </svg>
-  <p>laissez vous guider</p>
-  <h3>Télécharger nos apllications</h3>
+                <p>laissez vous guider</p>
+                <h3>Télécharger nos apllications</h3>
 
 
-</section></a>
+            </section>
+        </a>
 
-<!-- **************************************fin applis********************************************************************* -->
+        <!-- **************************************fin applis********************************************************************* -->
 
-<section class="encemoment">
-  <a href="#"><div class="lille">
+        <section class="encemoment">
+            <a href="#">
+                <div class="lille">
 
-    <p><span class="icon-tower icon mr-2"></span>A LILLE en ce moment</p>
+                    <p><span class="icon-tower icon mr-2"></span>A LILLE en ce moment</p>
 
-  </div></a>
-  <a href="#"><div class="culturel">
+                </div>
+            </a>
+            <a href="#">
+                <div class="culturel">
 
-    <p><span class="icon icon-globe mr-2"></span>Les autres sites culturels de la ville</p>
+                    <p><span class="icon icon-globe mr-2"></span>Les autres sites culturels de la ville</p>
 
-  </div></a>
+                </div>
+            </a>
 
-</section>
-
-
-
-
-
-      </main>
+        </section>
 
 
-      <!-- ***************************************************fin main************************************************************* -->
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/bootstrap.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+
+    </main>
+
+
+    <!-- ***************************************************fin main************************************************************* -->
+    <footer class="container-fluid">
+
+        <ul class="footphone">
+            <li><span class="icon icon-clock mr-3"></span><br class="hidden-lg-down">Horaires :
+                <ul>
+                    <li>OUVERT : Lun. 14h - 18h,</li>
+                    <li>Mer. > Dim. 10h - 18h. Fermé le mardi.</li>
+                    <li>TARIF PLEIN 7 € /TARIF RÉDUIT 4 €</li>
+                    <li class="hidden-lg-down">place de la république 59000 lille</li>
+
+                </ul>
+            </li>
+
+            <li class="hidden-lg-up"> <span class="icon-marker icon mr-4"></span> <br class="hidden-lg-down">place de la république <br> 59000 lille</li>
+            <li> <span class="icon icon-musee-prive mr-4"></span><br class="hidden-lg-down">musée privé
+                <ul class="hidden-lg-down">
+                    <li>Devenir mécène</li>
+                    <li>Soutenir un projet</li>
+                    <li>Organiser un événement</li>
+                    <li>Adhérer</li>
+
+                </ul>
+            </li>
+
+            <li> <span class="icon icon-presse mr-4"></span><br class="hidden-lg-down">presse
+                <ul class="hidden-lg-down">
+                    <li>Dossiers de Presse</li>
+                    <li>Photothèque</li>
+
+
+                </ul>
+            </li>
+            <li class="hidden-lg-down"> <span class="icon icon-share-circled"></span><br class="hidden-lg-down"> Suivez nous
+                <ul class="hidden-lg-down">
+                    <li>Sur les réseaux sociaux</li>
+                    <li>
+                        <ul class="d-flex justify-content-around iconpc">
+                            <li><span class="icon-twitter-circled icon"></span></li>
+                            <li><span class="icon-facebook-circled icon"></span></li>
+                            <li><span class="icon-instagram icon"></span></li>
+                            <li><span class="icon-youtube-circled icon"></span></li>
+                            <li><span class="icon-vimeo-circled icon"></span></li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+            </li>
+            <hr class="hidden-lg-down">
+            <li class="petitpc up"> <span class="icon-send icon mr-4"></span>nous contacter</li>
+            <li class="petitpc">mentions legales</li>
+            <li class="petitpc">liens</li>
+            <li class="petitpc">plan du site</li>
+
+
+        </ul>
+
+        <nav class="hidden-lg-up">
+            <ul class="d-flex justify-content-around" id="navicon">
+                <li><span class="icon-twitter-circled icon"></span></li>
+                <li><span class="icon-facebook-circled icon"></span></li>
+                <li><span class="icon-instagram icon"></span></li>
+                <li><span class="icon-youtube-circled icon"></span></li>
+                <li><span class="icon-vimeo-circled icon"></span></li>
+            </ul>
+
+        </nav>
+        <div class="d-flex hidden-lg-down mecene">
+            <p>Site réalisé grâce au mécénat de</p>
+            <img src="img/footer/mecene.png" alt="" class="ml-4">
+
+        </div>
+
+
+
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = 'https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
 </html>
