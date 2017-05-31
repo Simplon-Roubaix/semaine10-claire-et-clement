@@ -731,9 +731,24 @@
   padding: 47px;
 }
 
+/* text boxes related to profiles section - ONLY DISPLAYED IN DESKTOP FORMAT*/
+
 .text-box-profils {
   opacity: 0.9;
 }
+
+.text-box-profils h2 {
+  font-size: 1rem;
+  padding: 40px 22px;
+  line-height: 1;
+}
+
+.text-box-profils span {
+  font-size: 1.6rem;
+
+}
+
+/* text boxes related to parcours section */
 
 .text-box-parcours {
   padding: 26px;
@@ -750,6 +765,8 @@
 .text-box-parcours p {
   margin: 0;
 }
+
+/* text boxes related to incontournables section */
 
 .text-box-incontournables {
   padding: 27px 0;
