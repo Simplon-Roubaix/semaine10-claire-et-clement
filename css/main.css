@@ -644,6 +644,10 @@ svg:hover #Shape { fill: yellow; }
   background-color: white;
 }
 
+.bg-grey {
+  background-color: #E9E9E9;
+}
+
 .text-box {
   padding: 47px;
 }
@@ -664,7 +668,7 @@ svg:hover #Shape { fill: yellow; }
 
 .profils {
   width: 20%;
-  height: 500px;
+  height: 40vw;
 }
 
 .incontournables, .parcours{
@@ -686,8 +690,19 @@ svg:hover #Shape { fill: yellow; }
     height: 482px;
   }
 
-
 }
+
+
+
+span .title.parcours.visiter {
+}
+
+h2 .title.parcours.visiter  {
+}
+
+
+
+
 
 /* --------------------- background images : profils / parcours / incontournables --------------------- */
 
