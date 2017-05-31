@@ -526,26 +526,31 @@ z-index: 20;
   transition: all 0.3s ease 0s;
 }
 
-#accueil .lienapplis:hover .applis h3 {
+#accueil .lienapplis:hover .applis h3, #mainvisiter .lienapplis:hover .applis h3 {
   color: #D8383F;
   border: 3px solid #D8383F;
   transition: all 0.3s ease 0s;
 }
 
-#accueil .lienapplis:hover .applis p {
+#accueil .lienapplis:hover .applis p, #mainvisiter .lienapplis:hover .applis p {
   color: #D8383F;
   transition: all 0.3s ease 0s;
 }
 
-#accueil .lienapplis:hover .svg-tablette .st0, #accueil .lienapplis:hover .svg-tablette .st1  {
+#accueil .lienapplis:hover .svg-tablette .st0, #accueil .lienapplis:hover .svg-tablette .st1, #mainvisiter .lienapplis:hover .svg-tablette .st0, #mainvisiter .lienapplis:hover .svg-tablette .st1 {
   stroke: #D8383F;
   transition: all 0.3s ease 0s;
 
 }
 
-#accueil .lienapplis:hover .svg-tablette .st2 {
+#accueil .lienapplis:hover .svg-tablette .st2, #mainvisiter .lienapplis:hover .svg-tablette .st2 {
   fill : #D8383F;
   transition: all 0.3s ease 0s;
+}
+
+#mainvisiter .applis {
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .svg-tablette {
@@ -1146,7 +1151,7 @@ width: 100%
   height: 200px;
 }
 
-#accueil .svg-tablette {
+#accueil .svg-tablette, #mainvisiter .svg-tablette {
   height: 200px;
   order: 1;
   width: 300px;
@@ -1154,7 +1159,8 @@ width: 100%
 
 }
 
-#accueil .applis h3 {
+
+#accueil .applis h3, #mainvisiter .applis h3 {
 
   border: none;
   order: 2;
@@ -1165,7 +1171,7 @@ width: 100%
 }
 
 
-#accueil .applis p {
+#accueil .applis p, #mainvisiter .applis p {
   width: auto;
   order: 3;
   font-size: 20px;
@@ -1175,7 +1181,7 @@ width: 100%
   bottom : 30px;
 }
 
-#accueil .lienapplis:hover .applis h3 {
+#accueil .lienapplis:hover .applis h3, #mainvisiter .lienapplis:hover .applis h3{
   border: none;
 }
 
