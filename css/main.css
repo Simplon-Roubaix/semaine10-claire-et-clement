@@ -675,6 +675,11 @@ svg:hover #Shape { fill: yellow; }
   height: 99vw;
 }
 
+.size.visiter {
+  padding: 1.5rem 1.5rem !important;
+  margin-bottom: 22px;
+}
+
 @media (min-width: 992px) {
 
   .incontournables {
@@ -697,12 +702,26 @@ svg:hover #Shape { fill: yellow; }
 span .title.parcours.visiter {
 }
 
+
 h2 .title.parcours.visiter  {
 }
 
 
+.profils-title.visiter {
+  font-size: 1rem !important;
+}
 
+@media (min-width:576px) {
+  .profils-title.visiter {
+    font-size: 2.1rem !important;
+  }
 
+  .size.visiter {
+    padding: 3rem 3rem !important;
+    margin-bottom: 45px;
+  }
+
+}
 
 /* --------------------- background images : profils / parcours / incontournables --------------------- */
 
