@@ -611,4 +611,316 @@
 
 
 
-***********************************************claire***********************************************
+/***********************************************claire***********************************************/
+
+
+/* fonts-family */
+
+.text-lovelo{
+  font-family: "lovelo";
+}
+
+.visiter body, .visiter a {
+  font-family: "lovelo";
+}
+
+.p-visiter p { /*line-height adjusts icon-clock to p text*/
+  line-height: 2;
+}
+
+/* general a hrefs */
+
+.visiter a {
+  text-decoration: none;
+  color: black;
+}
+
+.visiter a:hover {
+  color: #D8383F;
+  text-decoration: none;
+}
+
+/* color related (bg : background) */
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-grey {
+  background-color: #E9E9E9;
+}
+
+.bg-black {
+  background-color: rgb(29, 29, 30);
+}
+
+/* --------------------- aside boxes --------------------- */
+
+.profils {
+  width: 20%;
+  height: 40vw;
+}
+
+.incontournables, .parcours{
+  height: 99vw;
+}
+
+.size.visiter {
+  padding: 1.5rem 1.5rem !important;
+  margin-bottom: 22px;
+}
+
+.time-title { /* text in incontournables section */
+  font-size: 2rem ;
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+
+  .incontournables {
+    height: 424px;
+    width: 300px;
+  }
+
+  .parcours {
+    height: 482px;
+  }
+
+}
+
+
+@media (min-width:576px) {
+
+  .size.visiter {
+    padding: 3rem 3rem !important;
+    margin-bottom: 45px;
+  }
+
+  .time-title {
+    font-size: 4.5rem ;
+    font-weight: bold;
+  }
+
+}
+
+
+/* white box with text of aside and a */
+
+/* text boxes related to profiles section - smartphone and tablet*/
+
+.title-profils  {
+  font-size: 1rem !important;
+}
+
+.title-profils span {
+  font-size: 1.4rem !important;
+}
+
+@media (min-width:576px) {
+  .title-profils  {
+    font-size: 1.5rem !important;
+  }
+
+  .title-profils span {
+    font-size: 2rem !important;
+  }
+
+}
+/* text boxes related to profiles section - ONLY DISPLAYED IN DESKTOP FORMAT*/
+
+.text-box-profils {
+  opacity: 0.9;
+}
+
+.text-box-profils h2 {
+  font-size: 1rem;
+  padding: 40px 22px;
+  line-height: 1;
+}
+
+.text-box-profils span {
+  font-size: 1.6rem;
+
+}
+
+/* text boxes related to parcours section */
+
+.text-box-parcours {
+  padding: 26px;
+  height: 25vh;
+}
+
+.text-box-parcours h3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.2em;
+  max-height: 2.4em;
+}
+
+.text-box-parcours p {
+  margin: 0;
+}
+
+/* text boxes related to incontournables section */
+
+.text-box-incontournables {
+  padding: 27px 0;
+}
+
+.title { /*time title in incontournables*/
+  font-size: 48px;
+}
+
+@media (min-width: 584px) {
+
+  .text-box-parcours {
+    padding: 47px;
+    height: 40vh;
+  }
+
+  .text-box-parcours h3 {
+    font-size: 3rem;
+  }
+
+}
+
+@media (min-width: 1000px) {
+  .text-box-parcours {
+    padding: 25px;
+    height: 139px;
+    width:236px;
+  }
+
+  .text-box-parcours h3 {
+    font-size: 1.7rem;
+  }
+}
+
+
+/* --------------------- integrated icons --------------------- */
+
+.icon-parcours:before {
+  content: "\e922";
+  font-family: "pba";
+  font-size: 2rem;
+  color: white;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #FFF;
+  position: relative;
+  margin-left: -10px;
+  margin-top: 25px;
+}
+
+.icon-clock:before {
+  content: "\e907";
+  font-family: "pba";
+  font-size: 1rem;
+  color: #000;
+  margin-right: 5px;
+}
+
+@media (min-width:576px) {
+
+  .icon-parcours:before {
+    font-size: 5rem;
+  }
+
+  .icon-clock.icon.tablet-format:before {
+    font-size: 2rem;
+  }
+
+}
+
+@media (min-width: 992px)  {
+
+  .icon-parcours:before {
+    font-size: 3rem;
+  }
+
+}
+
+/* --------------------- background image --------------------- */
+
+.backgroundimg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* --------------------- links to all background images --------------------- */
+
+/* gallery profiles */
+
+.backgroundimg.profils.one {
+  background-image: url("../img/visiter/profil-1.jpg");
+}
+
+.backgroundimg.profils.two {
+  background-image: url("../img/visiter/profil-2.jpg");
+}
+
+.backgroundimg.profils.three {
+  background-image: url("../img/visiter/profil-3.jpg");
+}
+
+.backgroundimg.profils.four {
+  background-image: url("../img/visiter/profil-4.jpg");
+}
+
+.backgroundimg.profils.five {
+  background-image: url("../img/visiter/profil-5.jpg");
+}
+
+/* gallery parcours */
+
+.backgroundimg.parcours.one {
+  background-image: url("../img/visiter/parcours-1.jpg");
+}
+
+.backgroundimg.parcours.two {
+  background-image: url("../img/visiter/parcours-2.jpg");
+}
+
+.backgroundimg.parcours.three {
+  background-image: url("../img/visiter/parcours-3.jpg");
+}
+
+.backgroundimg.parcours.four {
+  background-image: url("../img/visiter/parcours-4.jpg");
+}
+
+.backgroundimg.parcours.five {
+  background-image: url("../img/visiter/parcours-5.jpg");
+}
+
+.backgroundimg.parcours.six {
+  background-image: url("../img/visiter/parcours-6.jpg");
+}
+
+.backgroundimg.parcours.seven {
+  background-image: url("../img/visiter/parcours-7.jpg");
+}
+
+.backgroundimg.parcours.eight {
+  background-image: url("../img/visiter/parcours-8.jpg");
+}
+
+/* gallery incontournables */
+
+.backgroundimg.incontournables.one {
+  background-image: url("../img/visiter/incontournables-1.jpg");
+}
+
+.backgroundimg.incontournables.two {
+  background-image: url("../img/visiter/incontournables-2.jpg");
+}
+
+.backgroundimg.incontournables.three {
+  background-image: url("../img/visiter/incontournables-3.jpg");
+}
