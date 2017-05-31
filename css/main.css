@@ -680,10 +680,6 @@
   margin-bottom: 22px;
 }
 
-.profils-title.visiter {
-  font-size: 1rem !important;
-}
-
 .time-title {
   font-size: 2rem ;
   font-weight: bold;
@@ -708,9 +704,6 @@
 
 
 @media (min-width:576px) {
-  .profils-title.visiter {
-    font-size: 2.1rem !important;
-  }
 
   .size.visiter {
     padding: 3rem 3rem !important;
@@ -730,6 +723,26 @@
 .text-box {
   padding: 47px;
 }
+
+
+
+.title-profils  {
+  font-size: .9rem !important;
+}
+
+.title-profils span {
+  font-size: 1.4rem !important;
+}
+
+@media (min-width:576px) {
+  .title-profils  {
+    font-size: 1.5rem !important;
+  }
+
+  .title-profils span {
+    font-size: 2.5rem !important;
+  }
+
 
 /* text boxes related to profiles section - ONLY DISPLAYED IN DESKTOP FORMAT*/
 
