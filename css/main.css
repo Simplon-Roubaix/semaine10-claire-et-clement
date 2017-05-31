@@ -613,8 +613,8 @@
 
 /***********************************************claire***********************************************/
 
-svg:hover #Shape { fill: yellow; }
 
+/* fonts-family */
 
 @font-face {
   font-family: "lovelo";
@@ -630,9 +630,15 @@ svg:hover #Shape { fill: yellow; }
   font-family: "lovelo";
 }
 
+.text-opensans {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .visiter body, .visiter a {
   font-family: "lovelo";
 }
+
+/* general a */
 
 .visiter a {
   text-decoration: none;
@@ -644,6 +650,8 @@ svg:hover #Shape { fill: yellow; }
   text-decoration: none;
 }
 
+/* color related */
+
 .bg-white {
   background-color: white;
 }
@@ -654,21 +662,6 @@ svg:hover #Shape { fill: yellow; }
 
 .bg-black {
   background-color: rgb(29, 29, 30);
-}
-.text-box {
-  padding: 47px;
-}
-
-.title {
-  font-size: 48px;
-}
-
-/* --------------------- background image --------------------- */
-
-.backgroundimg {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 /* --------------------- aside properties --------------------- */
@@ -685,6 +678,15 @@ svg:hover #Shape { fill: yellow; }
 .size.visiter {
   padding: 1.5rem 1.5rem !important;
   margin-bottom: 22px;
+}
+
+.profils-title.visiter {
+  font-size: 1rem !important;
+}
+
+.time-title {
+  font-size: 2rem ;
+  font-weight: bold;
 }
 
 @media (min-width: 992px) {
@@ -705,19 +707,6 @@ svg:hover #Shape { fill: yellow; }
 }
 
 
-
-span .title.parcours.visiter {
-}
-
-
-h2 .title.parcours.visiter  {
-}
-
-
-.profils-title.visiter {
-  font-size: 1rem !important;
-}
-
 @media (min-width:576px) {
   .profils-title.visiter {
     font-size: 2.1rem !important;
@@ -728,7 +717,77 @@ h2 .title.parcours.visiter  {
     margin-bottom: 45px;
   }
 
+  .time-title {
+    font-size: 4.5rem ;
+    font-weight: bold;
+  }
+
 }
+
+
+/* white box with text of aside and a */
+
+.text-box {
+  padding: 47px;
+}
+
+.text-box-profils {
+  opacity: 0.9;
+}
+
+.text-box-parcours {
+  padding: 26px;
+  height: 25vh;
+}
+
+.text-box-parcours h3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.2em;
+  max-height: 2.4em;
+}
+
+.text-box-parcours p {
+  margin: 0;
+}
+
+.text-box-incontournables {
+  padding: 27px 0;
+}
+
+.title {
+  font-size: 48px;
+}
+
+@media (min-width: 584px) {
+
+  .text-box-parcours {
+    padding: 47px;
+    height: 40vh;
+  }
+
+  .text-box-parcours h3 {
+    font-size: 3rem;
+  }
+
+
+}
+
+
+@media (min-width: 1000px) {
+
+  .text-box-parcours {
+    padding: 25px;
+    height: 139px;
+    width:236px;
+  }
+
+  .text-box-parcours h3 {
+    font-size: 1.7rem;
+  }
+
+}
+
 
 /* --------------------- integrated icons --------------------- */
 
@@ -740,20 +799,31 @@ h2 .title.parcours.visiter  {
 }
 
 .triangle {
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #FFF;
-    position: relative;
-    margin-left: -10px;
-    margin-top: 25px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #FFF;
+  position: relative;
+  margin-left: -10px;
+  margin-top: 25px;
+}
+
+.icon-clock:before {
+  content: "\e907";
+  font-family: "pba";
+  font-size: 1rem;
+  color: rgb(134, 134, 135);
 }
 
 @media (min-width:576px) {
 
   .icon-parcours:before {
     font-size: 5rem;
+  }
+
+  .icon-clock.icon.tablet-format:before {
+    font-size: 2rem;
   }
 
 }
@@ -766,74 +836,82 @@ h2 .title.parcours.visiter  {
 
 }
 
-/* --------------------- background images : profils / parcours / incontournables --------------------- */
+/* --------------------- background image --------------------- */
+
+.backgroundimg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* --------------------- links to all background images --------------------- */
 
 /* gallery profiles */
 
 .backgroundimg.profils.one {
-  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/profil-1.jpg");
+  background-image: url("../img/visiter/profil-1.jpg");
 }
 
 .backgroundimg.profils.two {
-  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/profil-2.jpg");
+  background-image: url("../img/visiter/profil-2.jpg");
 }
 
 .backgroundimg.profils.three {
-  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/profil-3.jpg");
+  background-image: url("../img/visiter/profil-3.jpg");
 }
 
 .backgroundimg.profils.four {
-  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/profil-4.jpg");
+  background-image: url("../img/visiter/profil-4.jpg");
 }
 
 .backgroundimg.profils.five {
-  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/profil-5.jpg");
+  background-image: url("../img/visiter/profil-5.jpg");
 }
 
 /* gallery parcours */
 
 .backgroundimg.parcours.one {
-  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/parcours-1.jpg");
+  background-image: url("../img/visiter/parcours-1.jpg");
 }
 
 .backgroundimg.parcours.two {
-  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/parcours-2.jpg");
+  background-image: url("../img/visiter/parcours-2.jpg");
 }
 
 .backgroundimg.parcours.three {
-  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/parcours-3.jpg");
+  background-image: url("../img/visiter/parcours-3.jpg");
 }
 
 .backgroundimg.parcours.four {
-  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/parcours-4.jpg");
+  background-image: url("../img/visiter/parcours-4.jpg");
 }
 
 .backgroundimg.parcours.five {
-  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/parcours-5.jpg");
+  background-image: url("../img/visiter/parcours-5.jpg");
 }
 
 .backgroundimg.parcours.six {
-  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/parcours-6.jpg");
+  background-image: url("../img/visiter/parcours-6.jpg");
 }
 
 .backgroundimg.parcours.seven {
-  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/parcours-7.jpg");
+  background-image: url("../img/visiter/parcours-7.jpg");
 }
 
 .backgroundimg.parcours.eight {
-  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/parcours-8.jpg");
+  background-image: url("../img/visiter/parcours-8.jpg");
 }
 
 /* gallery incontournables */
 
 .backgroundimg.incontournables.one {
-  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/incontournables-1.jpg");
+  background-image: url("../img/visiter/incontournables-1.jpg");
 }
 
 .backgroundimg.incontournables.two {
-  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/incontournables-2.jpg");
+  background-image: url("../img/visiter/incontournables-2.jpg");
 }
 
 .backgroundimg.incontournables.three {
-  background-image: url("file:///home/clairejacquet/sites/prod/10-semaine/semaine10-claire-et-clement/img/visiter/incontournables-3.jpg");
+  background-image: url("../img/visiter/incontournables-3.jpg");
 }
