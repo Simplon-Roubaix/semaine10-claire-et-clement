@@ -556,6 +556,10 @@ z-index: 20;
   margin-left: -15px;
 }
 
+#mainvisiter .applis h3, #mainvisiter .applis p {
+  color: white;
+}
+
 .svg-tablette {
   margin: auto;
   display: block;
@@ -1165,7 +1169,7 @@ footer .icon-send::before {
 @media (min-width: 1000px) {
   .text-box-parcours {
     padding: 25px;
-    height: 139px;
+    height: 192px;
     width:236px;
   }
 
