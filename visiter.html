@@ -1,0 +1,533 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Visiter - Palais des Beaux Arts de Lille</title>
+    <meta name="description" content="Parcours de visite. Le grand bleu. 45 mn de parcours · Love, etc. 45 mn de parcours · À Table ! 45 mn de parcours · Anges et Démons. 45 mn de parcours.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Place favicon.ico in the root directory -->
+
+
+    <script src="https://use.fontawesome.com/01d5fc61d4.js"></script>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <header class="container-fluid" id="tete">
+        <!-- ******************************************************************nav pour pc************************************************* -->
+        <nav class="d-flex hidden-lg-down navpc justify-content-between">
+
+            <ul class="d-flex justify-content-between align-items-center " id="listepc">
+                <li>
+                    <h1 class="ml-4"><a href="index.html">palais beaux-arts lille</a></h1></li>
+                <li><a href="#">collections</a></li>
+                <li><a href="visiter.html">visiter</a></li>
+                <li><a href="#">agenda</a></li>
+                <li><a href="#">information</a></li>
+                <li><input type="text" name="recherche"><i class="fa fa-search" aria-hidden="true"></i>
+                </li>
+                <li> <select id="langue" name="laguage">
+         <option value="">Francais</option>
+         <option> anglais</option>
+
+       </select></li>
+                <li class="mr-1">
+                    <a href="#"><img src="img/accueil/logo-lille.svg" alt=""></a>
+                </li>
+            </ul>
+            <i class="fa fa-caret-down" aria-hidden="true"></i>
+        </nav>
+
+        <!-- ***********************************************************fin nav pc *********************************************** -->
+        <!-- *************************************************nav pour phone et tab*************************************************** -->
+
+        <nav class="navbar navbar-toggleable-lg  navphone d-flex hidden-xl-up">
+            <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbHF1ZV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMTc3IDIzMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTc3IDIzMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtjbGlwLXBhdGg6dXJsKCNTVkdJRF8yXyk7fQoJLnN0MXtmaWxsOiNGRkZGRkY7fQo8L3N0eWxlPgo8Zz4KCTxnPgoJCTxkZWZzPgoJCQk8cmVjdCBpZD0iU1ZHSURfMV8iIHg9IjAiIHdpZHRoPSIxNzYuNyIgaGVpZ2h0PSIyMzMiLz4KCQk8L2RlZnM+CgkJPGNsaXBQYXRoIGlkPSJTVkdJRF8yXyI+CgkJCTx1c2UgeGxpbms6aHJlZj0iI1NWR0lEXzFfIiAgc3R5bGU9Im92ZXJmbG93OnZpc2libGU7Ii8+CgkJPC9jbGlwUGF0aD4KCQk8ZyBjbGFzcz0ic3QwIj4KCQkJPHBhdGggY2xhc3M9InN0MSIgZD0iTTE3NS43LDF2MjMwLjhIMVYxSDE3NS43IE0xNzYuNywwSDB2MjMyLjhoMTc2LjdWMEwxNzYuNywweiIvPgoJCTwvZz4KCTwvZz4KCTxnPgoJCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xMzAuNCw2NS44YzAuNi02LDguOS01LjMsOC45LTUuM2wtMy4xLTMuOWMwLDAtMy44LTAuNS01LjQsMy44bC0wLjEsMC4ybC0wLjEsMC4xbC0wLjEtMC4xbDAuMS0wLjIKCQkJYzEtNC4yLDMuMy03LjQsMy4zLTcuNGwtNC4yLTUuNmwtNC4yLDUuNmMwLDAsMi4yLDMuMiwzLjMsNy40bDAuMSwwLjJsLTAuMSwwLjFsLTAuMS0wLjFsLTAuMS0wLjJjLTEuNy00LjMtNS40LTMuOC01LjQtMy44CgkJCWwtMy4xLDMuOWMwLDAsOC4zLTAuOCw4LjksNS4zSDEzMC40eiBNMTMwLjQsNjUuOCIvPgoJCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xMDAuMyw2Mi40Qzk5LDYyLjQsOTksNjAuNiw5OSw1OWMwLTEuNywwLTMuMiwxLjItMy4yYzEuMSwwLDEuMiwxLjUsMS4yLDMuNAoJCQlDMTAxLjQsNjEuMiwxMDEuMyw2Mi40LDEwMC4zLDYyLjQgTTEwMS41LDYzdjEuM2gyLjdWNDkuNGgtMi44djUuN2wwLTAuMWMtMC40LTAuOS0xLjMtMS40LTIuMy0xLjRjLTIuMywwLTIuOCwyLjItMi44LDUuNQoJCQljMCwzLjcsMC45LDUuMywzLDUuM0MxMDAuNyw2NC41LDEwMS4zLDYzLjUsMTAxLjUsNjNMMTAxLjUsNjN6IE0xMDEuNSw2MyIvPgoJCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik02Mi4yLDU0bC0xLjIsNy43aC0wLjJMNTkuNyw1NGgtMi45bDIuNCwxMC4yaDMuNEw2NSw1NEg2Mi4yeiBNNjIuMiw1NCIvPgoJCTxyZWN0IHg9IjY3IiB5PSI1NCIgY2xhc3M9InN0MSIgd2lkdGg9IjIuOCIgaGVpZ2h0PSIxMC4yIi8+CgkJPHJlY3QgeD0iNzIuNiIgeT0iNDkuNCIgY2xhc3M9InN0MSIgd2lkdGg9IjIuOCIgaGVpZ2h0PSIxNC44Ii8+CgkJPHJlY3QgeD0iNzguMiIgeT0iNDkuNCIgY2xhc3M9InN0MSIgd2lkdGg9IjIuOCIgaGVpZ2h0PSIxNC44Ii8+CgkJPHJlY3QgeD0iNjciIHk9IjQ5LjQiIGNsYXNzPSJzdDEiIHdpZHRoPSIyLjgiIGhlaWdodD0iMi43Ii8+CgkJPHBhdGggY2xhc3M9InN0MSIgZD0iTTg4LjIsNTcuOWgtMi4zdi0wLjFjMC0xLjIsMC4xLTIuNCwxLjItMi40YzAuOSwwLDEuMSwwLjksMS4xLDIuNFY1Ny45eiBNODcsNTMuN2MtMi43LDAtMy45LDEuNS0zLjksNQoJCQljMCwzLjIsMC4zLDUuOCwzLjksNS44YzIuNCwwLDMuNy0xLjIsMy43LTMuNmgtMi41Yy0wLjEsMS4yLTAuMywxLjktMS4yLDEuOWMtMSwwLTEuMi0xLTEuMi0yLjV2LTAuN2g1CgkJCUM5MC44LDU2LDkwLjUsNTMuNyw4Nyw1My43Ii8+CgkJPHBhdGggY2xhc3M9InN0MSIgZD0iTTExMS40LDU3LjlIMTA5di0wLjFjMC0xLjIsMC4xLTIuNCwxLjItMi40YzAuOSwwLDEuMSwwLjksMS4xLDIuNFY1Ny45eiBNMTEwLjIsNTMuN2MtMi43LDAtMy45LDEuNS0zLjksNQoJCQljMCwzLjIsMC4zLDUuOCwzLjksNS44YzIuNCwwLDMuNy0xLjIsMy43LTMuNmgtMi41Yy0wLjEsMS4yLTAuMywxLjktMS4yLDEuOWMtMSwwLTEuMi0xLTEuMi0yLjV2LTAuN2g1CgkJCUMxMTQsNTYsMTEzLjcsNTMuNywxMTAuMiw1My43Ii8+CgkJPHJlY3QgeD0iMzAuOCIgeT0iNzAuNCIgY2xhc3M9InN0MSIgd2lkdGg9IjEyLjIiIGhlaWdodD0iMTA4LjYiLz4KCQk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNzkuNCwxNzloMTIuMmwwLTkwLjFINzkuNEw3OS40LDE3OXogTTc5LjQsMTc5Ii8+CgkJPHJlY3QgeD0iMTAzLjgiIHk9Ijc2LjIiIGNsYXNzPSJzdDEiIHdpZHRoPSIxMi4yIiBoZWlnaHQ9Ijc5LjciLz4KCQk8cmVjdCB4PSI1NS4xIiB5PSIxMDAuNSIgY2xhc3M9InN0MSIgd2lkdGg9IjEyLjIiIGhlaWdodD0iNjEuMSIvPgoJCTxyZWN0IHg9IjU1LjEiIHk9Ijc2LjIiIGNsYXNzPSJzdDEiIHdpZHRoPSIxMi4yIiBoZWlnaHQ9IjEyLjIiLz4KCQk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMTQ4LDEwNS42Vjk1LjFoLTIwdjcyLjNoMjBWMTU3SDE0MHYtMjAuNWg4LjF2LTEwLjVIMTQwdi0yMC41SDE0OHogTTE0OCwxMDUuNiIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo="
+                alt="">
+            <ul class="d-flex">
+                <li class="icon icon-search mr-4">
+                </li>
+                <li class="icon-infos icon mr-4"></li>
+                <li> <button class="collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="nav-icon1">
+          <i   class="fa fa-bars fa-2x" aria-hidden="true"></i>
+        </button>
+
+                </li>
+            </ul>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="triangleMenu">
+
+                </div>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="index.html"> <span class="icon-chef-oeuvre ml-4 icon mr-5"></span>Accueil</a>
+                        <hr>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="visiter.html"><span class="icon-infos icon ml-4 mr-5"></span>Visiter</a>
+                        <hr>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="icon-send icon ml-4 mr-5"></span>contactez nous</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <!-- *******************************************************fin nav pour phone et tab**************************************** -->
+
+    </header>
+
+
+    <main class="container-fluid visiter p-visiter bg-black " id="mainvisiter">
+
+        <!-- section profils DISPLAY FOR SMARTPHONES AND TABLETS -->
+        <section class="row hidden-lg-up d-flex justify-content-center py-5">
+
+            <a class="col-10 bg-grey size visiter" href="#">
+                <div class="d-flex justify-content-center align-items-center ">
+                    <h2 class="title-profils m-0">Vous êtes un <span>individuel</span></h2>
+                </div>
+            </a>
+            <a class="col-10 bg-grey size visiter" href="#">
+                <div class="d-flex justify-content-center align-items-center ">
+                    <h2 class="title-profils m-0">Vous êtes un <span>groupe</span></h2>
+                </div>
+            </a>
+            <a class="col-10 bg-grey size visiter" href="#">
+                <div class="d-flex justify-content-center align-items-center ">
+                    <h2 class="title-profils m-0">Vous êtes une <span>famille</span></h2>
+                </div>
+            </a>
+            <a class="col-10 bg-grey size visiter" href="#">
+                <div class="d-flex justify-content-center align-items-center ">
+                    <h2 class="title-profils m-0">Vous êtes un <span>étudiant</span></h2>
+                </div>
+            </a>
+            <a class="col-10 bg-grey size visiter" href="#">
+                <div class="d-flex justify-content-center align-items-center ">
+                    <h2 class="title-profils m-0">Vous êtes un <span>enseignant</span></h2>
+                </div>
+            </a>
+
+        </section>
+
+        <!-- section profils DISPLAY FOR DESKTOP FORMATS -->
+
+        <section class="row hidden-md-down d-flex justify-content-between">
+
+            <a class="profils backgroundimg one d-flex align-items-center" href="#">
+                <div class="offset-1 col-10 bg-white text-box-profils">
+                    <h2 class="">Vous êtes un <span>individuel</span></h2>
+                </div>
+            </a>
+            <a class="profils backgroundimg two d-flex align-items-center" href="#">
+                <div class="offset-1 col-10 bg-white text-box-profils">
+                    <h2>Vous êtes un <span>groupe</span></h2>
+                </div>
+            </a>
+            <a class="profils backgroundimg three d-flex align-items-center" href="#">
+                <div class="offset-1 col-10 bg-white text-box-profils">
+                    <h2>Vous êtes une <span>famille</span></h2>
+                </div>
+            </a>
+            <a class="profils backgroundimg four d-flex align-items-center" href="#">
+                <div class="offset-1 col-10 bg-white text-box-profils">
+                    <h2>Vous êtes un <span>étudiant</span></h2>
+                </div>
+            </a>
+            <a class="profils backgroundimg five d-flex align-items-center" href="#">
+                <div class="offset-1 col-10 bg-white text-box-profils">
+                    <h2>Vous êtes un <span>enseignant</span></h2>
+                </div>
+            </a>
+        </section>
+
+        <!-- ************************ section parcours ****************************************************** -->
+
+        <section class="row">
+
+            <div class="col-12 d-flex flex-column align-items-center my-5">
+
+                <!-- display only for tablets and smartphones-->
+                <div class="icon-parcours icon"></div>
+                <h2 class="text-lovelo text-white my-2">Parcours de visite</h2>
+                <div class="triangle"></div>
+            </div>
+
+            <a class="col-12 col-lg-3 p-0" href="#">
+                <aside class="backgroundimg parcours one d-flex justify-content-center align-items-center">
+                    <div class="col-8 d-flex flex-column justify-content-between bg-white text-box-parcours">
+                        <h3>Le Grand Bleu</h3>
+                        <div class="d-flex">
+                            <div class="icon-clock icon"></div>
+                            <p>
+                                <span>45 mn</span> de parcours
+                            </p>
+                        </div>
+                    </div>
+                </aside>
+            </a>
+
+            <a class="col-12 col-lg-3 p-0" href="#">
+                <aside class="backgroundimg parcours two d-flex justify-content-center align-items-center">
+                    <div class="col-8 d-flex flex-column justify-content-between bg-white text-box-parcours">
+                        <h3>Love, etc.</h3>
+                        <div class="d-flex">
+                            <div class="icon-clock icon"></div>
+                            <p>
+                                <span>45 mn</span> de parcours
+                            </p>
+                        </div>
+                    </div>
+                </aside>
+            </a>
+
+            <a class="col-12 col-lg-3 p-0" href="#">
+                <aside class="backgroundimg parcours three d-flex justify-content-center align-items-center">
+                    <div class="col-8 d-flex flex-column justify-content-between bg-white text-box-parcours">
+                        <h3>à table!</h3>
+                        <div class="d-flex">
+                            <div class="icon-clock icon"></div>
+                            <p>
+                                <span>45 mn</span> de parcours
+                            </p>
+                        </div>
+                    </div>
+                </aside>
+            </a>
+
+            <a class="col-12 col-lg-3 p-0" href="#">
+                <aside class="backgroundimg parcours four d-flex justify-content-center align-items-center">
+                    <div class="col-8 d-flex flex-column justify-content-between bg-white text-box-parcours">
+                        <h3>Anges et Démons</h3>
+                        <div class="d-flex">
+                            <div class="icon-clock icon"></div>
+                            <p>
+                                <span>45 mn</span> de parcours
+                            </p>
+                        </div>
+                    </div>
+                </aside>
+            </a>
+
+            <a class="col-12 col-lg-3 p-0" href="#">
+                <aside class="backgroundimg parcours five d-flex justify-content-center align-items-center">
+                    <div class="col-8 d-flex flex-column justify-content-between bg-white text-box-parcours">
+                        <h3>Histoires de bêtes</h3>
+                        <div class="d-flex">
+                            <div class="icon-clock icon"></div>
+                            <p>
+                                <span>45 mn</span> de parcours
+                            </p>
+                        </div>
+                    </div>
+                </aside>
+            </a>
+
+            <a class="col-12 col-lg-3 p-0" href="#">
+                <aside class="backgroundimg parcours six d-flex justify-content-center align-items-center">
+                    <div class="col-8 d-flex flex-column justify-content-between bg-white text-box-parcours">
+                        <h3>Des chiffres et des lettres</h3>
+                        <div class="d-flex">
+                            <div class="icon-clock icon"></div>
+                            <p>
+                                <span>45 mn</span> de parcours
+                            </p>
+                        </div>
+                    </div>
+                </aside>
+            </a>
+
+            <a class="col-12 col-lg-3 p-0" href="#">
+                <aside class="backgroundimg parcours seven d-flex justify-content-center align-items-center">
+                    <div class="col-8 d-flex flex-column justify-content-between bg-white text-box-parcours">
+                        <h3>Blondes et Brunes</h3>
+                        <div class="d-flex">
+                            <div class="icon-clock icon"></div>
+                            <p>
+                                <span>45 mn</span> de parcours
+                            </p>
+                        </div>
+                    </div>
+                </aside>
+            </a>
+
+            <a class="col-12 col-lg-3 p-0" href="#">
+                <aside class="backgroundimg parcours eight d-flex justify-content-center align-items-center">
+                    <div class="col-8 d-flex flex-column justify-content-between bg-white text-box-parcours">
+                        <h3>Mini Maxi</h3>
+                        <div class="d-flex">
+                            <div class="icon-clock icon"></div>
+                            <p>
+                                <span>45 mn</span> de parcours
+                            </p>
+                        </div>
+                    </div>
+                </aside>
+            </a>
+
+        </section>
+
+        <!-- ***************** section incontournables ******************************************************************* -->
+
+        <section class="row bg-white ">
+
+            <div class="col-12 d-flex flex-column align-items-center my-5">
+                <h2 class="text-lovelo text-black">Les Incontournables</h2>
+            </div>
+
+            <!-- section incontournables mobile and tablet formats-->
+
+            <div class="col-12 hidden-lg-up p-0">
+
+                <a class="col-12 p-0" href="#">
+                    <aside class="col-12 backgroundimg incontournables one d-flex justify-content-center align-items-center">
+                        <div class="col-8 d-flex flex-column bg-white text-box-incontournables">
+                            <div class="col-12 justify-content-start">
+                                <div class="icon-clock icon tablet-format">
+                                </div>
+                                <div class="col-12 d-flex flex-column align-items-end">
+                                    <span class="time-title">30 mn</span>
+                                    <span class="">de parcours</span>
+                                    <span class="">4 œuvres</span>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </a>
+
+                <a class="col-12 p-0" href="#">
+                    <aside class="col-12 backgroundimg incontournables two d-flex justify-content-center align-items-center">
+                        <div class="col-8 d-flex flex-column bg-white text-box-incontournables">
+                            <div class="col-12 justify-content-start">
+                                <div class="icon-clock icon tablet-format">
+                                </div>
+                                <div class="col-12 d-flex flex-column align-items-end">
+                                    <span class="time-title">30 mn</span>
+                                    <span class="">de parcours</span>
+                                    <span class="">4 œuvres</span>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </a>
+
+                <a class="col-12 p-0" href="#">
+                    <aside class="col-12 backgroundimg incontournables three d-flex justify-content-center align-items-center">
+                        <div class="col-8 d-flex flex-column bg-white text-box-incontournables">
+                            <div class="col-12 justify-content-start">
+                                <div class="icon-clock icon tablet-format">
+                                </div>
+                                <div class="col-12 d-flex flex-column align-items-end">
+                                    <span class="time-title">30 mn</span>
+                                    <span class="">de parcours</span>
+                                    <span class="">4 œuvres</span>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </a>
+
+
+            </div>
+
+            <!-- section incontournables desktop format-->
+
+            <div class="col-12 hidden-md-down d-flex justify-content-around" id="incontournablepc">
+
+                <a href="#">
+                    <aside class="backgroundimg incontournables one d-flex align-items-center">
+                        <div class="col-8 d-flex flex-column align-items-end bg-white text-box">
+                            <div class="icon-clock icon"></div>
+                            <span class="title">30 mn</span>
+                            <span>de parcours</span>
+                            <span>4 œuvres</span>
+                        </div>
+                    </aside>
+                </a>
+
+                <a href="#">
+                    <aside class="backgroundimg incontournables two d-flex align-items-center">
+                        <div class="col-8 d-flex flex-column align-items-end bg-white text-box">
+                            <div class="icon-clock icon"></div>
+                            <span class="title">60 mn</span>
+                            <span>de parcours</span>
+                            <span>8 œuvres</span>
+                        </div>
+                    </aside>
+                </a>
+
+                <a href="#">
+                    <aside class="backgroundimg incontournables three d-flex align-items-center">
+                        <div class="col-8 d-flex flex-column align-items-end bg-white text-box">
+                            <div class="icon-clock icon"></div>
+                            <span class="title">90 mn</span>
+                            <span>de parcours</span>
+                            <span>12 œuvres</span>
+                        </div>
+                    </aside>
+                </a>
+
+            </div>
+
+        </section>
+        <!-- **************************************début applis********************************************************************* -->
+
+        <a class="lienapplis" href="#">
+            <section class="applis">
+                <svg class="svg-tablette" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="167px" height="75px" viewBox="0 0 159 100" style="enable-background:new 0 0 200 120" preserveAspectRatio="xMidYMid meet"
+                    xml:space="preserve">
+        <defs>
+        </defs>
+        <path class="st0" d="M104.3,74.5h-98c-2.9,0-5.3-2.4-5.3-5.3v-63C1,3.4,3.4,1,6.3,1h98c2.9,0,5.3,2.4,5.3,5.3v63
+        	C109.5,72.1,107.1,74.5,104.3,74.5z"></path>
+        <path class="st1" d="M4.7,37.8c0-1.7,1.3-3,3-3s3,1.3,3,3c0,1.7-1.3,3-3,3S4.7,39.4,4.7,37.8z M9.7,37.8c0-1.1-0.9-2-2-2s-2,0.9-2,2
+        	s0.9,2,2,2S9.7,38.9,9.7,37.8z M12.1,4.7h90.3v66.2H12.1V4.7z"></path>
+        <path class="st0" d="M162.6,11.6c-0.2,0,0.2,0-0.8,0v0c-2-0.3-6.1-0.4-9.3-0.4c-2.4,0-4.7,0-6.7,0.2v0c-1,0.1-2.6,0.1-3.7,0.2
+        	c-3.7,0.3-4.2,3-4.1,6.1l0,42c-0.1,3.1,0.3,6.4,4.3,6.7c1.1,0.1,2.7,0.2,3.7,0.3v0.1c2,0.1,4.3,0.2,6.6,0.2c3.3,0,7.4-0.1,9.4-0.4v0
+        	c1,0,0.6,0,0.8-0.1c3.9-0.3,4.2-3.6,4.1-6.7l0-42C166.7,14.6,166.3,11.9,162.6,11.6z"></path>
+        <rect x="142.3" y="19.3" class="st1" width="21" height="40"></rect>
+        <g>
+        	<path class="st2" d="M145.4,43.2v-6.4h2.5c2.5,0,2.5,4,0,4h-1.2v2.5H145.4z M147.8,39.5c0.9,0,0.9-1.4,0-1.4h-1.1v1.4H147.8z"></path>
+        	<path class="st2" d="M150.4,36.7h2.5c1.1,0,1.8,0.8,1.8,2c0,0.5-0.2,1-0.6,1.3c0.4,0.3,0.7,0.8,0.7,1.3c0,1.1-0.9,1.9-1.9,1.9h-2.5
+        		V36.7z M151.7,39.3h0.8h0.4c0.4,0,0.6-0.3,0.6-0.6c0-0.4-0.2-0.6-0.6-0.6h-1.1V39.3z M151.7,41.9h0.8h0.4c0.4,0,0.6-0.3,0.6-0.6
+        		s-0.3-0.6-0.6-0.6h-1.1V41.9z"></path>
+        	<path class="st2" d="M157.6,36.5h0.1l2.7,6.7H159l-0.3-0.7h-2.1l-0.3,0.7h-1.5L157.6,36.5z M158.3,41.3l-0.6-1.7l-0.6,1.7H158.3z"></path>
+        </g>
+        <g>
+        	<path class="st2" d="M37.5,45.7V29h6.5c6.5,0,6.4,10.3,0,10.3h-3.2v6.4H37.5z M43.8,36c2.2,0,2.2-3.7,0-3.7h-2.9V36H43.8z"></path>
+        	<path class="st2" d="M50.4,28.9H57c2.9,0,4.8,2.1,4.7,5.1c0,1.3-0.5,2.6-1.5,3.3c1.1,0.7,1.7,2,1.7,3.3c0,2.8-2.2,5-4.9,5h-6.6
+        		V28.9z M53.7,35.6h2h1c1,0,1.5-0.8,1.5-1.7c0-0.9-0.6-1.7-1.5-1.7h-2.9V35.6z M53.7,42.3h2h1c1,0,1.7-0.7,1.7-1.7S57.6,39,56.7,39
+        		h-2.9V42.3z"></path>
+        	<path class="st2" d="M69.2,28.4h0.3l7,17.3h-3.7l-0.7-1.8h-5.5L66,45.7h-3.8L69.2,28.4z M70.9,40.7l-1.5-4.3l-1.6,4.3H70.9z"></path>
+        </g>
+        </svg>
+                <p>laissez vous guider</p>
+                <h3>Télécharger nos apllications</h3>
+
+
+            </section>
+        </a>
+
+        <!-- **************************************fin applis********************************************************************* -->
+
+
+
+    </main>
+    <footer class="container-fluid">
+
+        <ul class="footphone">
+            <li><span class="icon icon-clock mr-3"></span><br class="hidden-lg-down">Horaires :
+                <ul>
+                    <li>OUVERT : Lun. 14h - 18h,</li>
+                    <li>Mer. > Dim. 10h - 18h. Fermé le mardi.</li>
+                    <li>TARIF PLEIN 7 € /TARIF RÉDUIT 4 €</li>
+                    <li class="hidden-lg-down">place de la république 59000 lille</li>
+
+                </ul>
+            </li>
+
+            <li class="hidden-lg-up"> <span class="icon-marker icon mr-4"></span> <br class="hidden-lg-down">place de la république <br> 59000 lille</li>
+            <li> <span class="icon icon-musee-prive mr-4"></span><br class="hidden-lg-down">musée privé
+                <ul class="hidden-lg-down">
+                    <li>Devenir mécène</li>
+                    <li>Soutenir un projet</li>
+                    <li>Organiser un événement</li>
+                    <li>Adhérer</li>
+
+                </ul>
+            </li>
+
+            <li> <span class="icon icon-presse mr-4"></span><br class="hidden-lg-down">presse
+                <ul class="hidden-lg-down">
+                    <li>Dossiers de Presse</li>
+                    <li>Photothèque</li>
+
+
+                </ul>
+            </li>
+            <li class="hidden-lg-down"> <span class="icon icon-share-circled"></span><br class="hidden-lg-down"> Suivez nous
+                <ul class="hidden-lg-down">
+                    <li>Sur les réseaux sociaux</li>
+                    <li>
+                        <ul class="d-flex justify-content-around iconpc">
+                            <li><span class="icon-twitter-circled icon"></span></li>
+                            <li><span class="icon-facebook-circled icon"></span></li>
+                            <li><span class="icon-instagram icon"></span></li>
+                            <li><span class="icon-youtube-circled icon"></span></li>
+                            <li><span class="icon-vimeo-circled icon"></span></li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+            </li>
+            <hr class="hidden-lg-down">
+            <li class="petitpc up"> <span class="icon-send icon mr-4"></span>nous contacter</li>
+            <li class="petitpc">mentions legales</li>
+            <li class="petitpc">liens</li>
+            <li class="petitpc">plan du site</li>
+
+
+        </ul>
+
+        <nav class="hidden-lg-up">
+            <ul class="d-flex justify-content-around" id="navicon">
+                <li><span class="icon-twitter-circled icon"></span></li>
+                <li><span class="icon-facebook-circled icon"></span></li>
+                <li><span class="icon-instagram icon"></span></li>
+                <li><span class="icon-youtube-circled icon"></span></li>
+                <li><span class="icon-vimeo-circled icon"></span></li>
+            </ul>
+
+        </nav>
+        <div class="d-flex hidden-lg-down mecene">
+            <p>Site réalisé grâce au mécénat de</p>
+            <img src="img/footer/mecene.png" alt="" class="ml-4">
+
+        </div>
+
+
+
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = 'https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>

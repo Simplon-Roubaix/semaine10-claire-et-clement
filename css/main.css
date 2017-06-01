@@ -1,0 +1,1414 @@
+@font-face {
+  font-family: "lovelo";
+  src: url(../fonts/lovelo.ttf);
+}
+
+@font-face {
+  font-family: "pba";
+  src: url(../fonts/pba.ttf);
+}
+
+/***************************************début du header*******************************************************/
+
+li {
+  list-style: none;
+}
+
+
+
+header {
+  background-color: #1D1D1E;
+
+
+}
+
+#tete {
+  padding: 0;
+  position: sticky;
+  top:0;
+  z-index: 50;
+}
+
+.navphone img {
+  width: 30px;
+  margin-right: auto;
+
+}
+
+.navphone {
+  flex-flow: row nowrap !important;
+  width: 100%;
+}
+
+#tete #nav-icon1.collapsed .fa-bars::before  {
+content: "\f0c9";
+
+
+}
+
+#tete #nav-icon1 .fa-bars::before  {
+  content: "\f00d";
+
+}
+
+
+
+
+
+.icon-search::before {
+    content: "\e92a";
+    font-family: "pba";
+    color: white;
+    font-size: 30px;
+}
+
+.icon-infos::before {
+    content: "\e938";
+    font-family: "pba";
+    color: white;
+      font-size: 30px
+}
+
+
+#navbarSupportedContent {
+  position: absolute;
+  left: 0px;
+  background-color: #1D1D1E;
+  border: 7px solid white;
+  position: absolute;
+  top : 77px;
+  width: 100%;
+  height: 88vh;
+  z-index: 100;
+
+}
+#navbarSupportedContent .icon {
+  font-family: "pba";
+  color: white;
+  font-size: 30px;
+}
+
+#navbarSupportedContent ul li a {
+  color: white;
+  font-family: "lovelo";
+
+
+}
+
+#navbarSupportedContent a:hover {
+  color: red;
+}
+
+
+
+#navbarSupportedContent hr {
+margin-left: 0;
+  border: 2px solid white;
+  width: 60%;
+  position: relative;
+  left: 103px
+}
+
+
+
+
+
+.triangleMenu::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: transparent transparent #FFF;
+    top: -14px;
+    right: 23px;
+}
+
+
+
+header i {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top : 8px;
+}
+header button {
+  background-color:  #1D1D1E;
+  border: none;
+}
+
+.icon-send::before {
+    content: "\e92b";
+
+    font-family: "pba";
+    color: white;
+    font-size: 20px;
+}
+
+/*************************************nav pc***********************************************************/
+#tete .navpc h1 a {
+  font-family: "pba";
+  color : white;
+  padding: 10px;
+}
+
+#langue {
+   -moz-appearance: none;
+   with: 100px;
+}
+
+#tete .fa.fa-caret-down {
+  position: absolute;
+  top : 16px;
+  left : 85%;
+  font-size: 30px;
+}
+
+
+
+#listepc {
+  width: 98%
+}
+
+.navpc img {
+  width: 50px;
+}
+
+.navpc li a {
+  font-family: "lovelo";
+  color: white;
+}
+
+.navpc li a:hover {
+  text-decoration: none;
+  color: #D8383F;
+}
+
+.navpc input  {
+  border-radius: 0;
+  border: 3px solid white;
+  background-color: transparent;
+  width: 80%;
+}
+
+.navpc input:hover {
+  border-color: #D8383F;
+}
+.navpc select {
+  border: none;
+  color: white;
+  background-color: transparent;
+
+
+}
+.navpc select:hover {
+  color: #D8383F;
+}
+
+#tete .fa.fa-search {
+  position: relative;
+  right: 25px;
+  font-size: 15px;
+  top: 0px;
+}
+
+*****************************************************************fin du header******************************************************************************
+
+
+
+/*****************************************************clement accueil *********************************************************************/
+
+
+#accueil {
+  padding: 0 !important;
+  margin: 0;
+}
+
+#accueil a:hover {
+  text-decoration: none;
+}
+
+
+.collection-phone {
+  background-image: url(../img/accueil/Palais-des-Beaux-Arts-de-Lille.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  /*height: 480px;*/
+  padding: 30px 0;
+}
+
+#accueil h1 {
+  font-family: "pba";
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding: 15px;
+}
+
+.hautdroitebas {
+  background-image: url(../img/accueil/deco-up.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 40px;
+
+}
+
+#accueil h2 {
+  font-family: "lovelo";
+  color: white;
+  font-size: 25px;
+padding-top: 8px;
+
+}
+
+#accueil p {
+  font-family: "lovelo";
+  color: white;
+  font-size: 15px;
+}
+
+.gauchedroite {
+
+    background-image: url(../img/accueil/deco-up.svg);
+    background-size: cover;
+    background-position: 0% 92%;
+    background-repeat: no-repeat;
+    height: 40px;
+
+  }
+
+  .basgauchehaut {
+    background-image: url(../img/accueil/deco-bottom.svg);
+    background-size: cover;
+    background-position: 0% 92%;
+    background-repeat: no-repeat;
+    height: 50px;
+
+
+  }
+
+  #accueil *[class^="icon"] {
+    font-family: "pba";
+    color : white;
+    font-size: 40px;
+  }
+
+  .icon-chef-oeuvre::before {
+    content: "\e905";
+
+}
+
+  .icon-parcours::before {
+    content: "\e922";
+
+}
+
+#accueil a:hover *[class^="icon"]{
+
+color: #D8383F;
+transition: all 0.3s ease 0s;
+}
+
+
+/******************************************************carousel*****************************************************/
+.carousel-item {
+  height: 470px;
+}
+#img1 {
+  background-image: url(../img/accueil/LE-MUSEE-SE-REINVENTE.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#img2 {
+  background-image: url(../img/accueil/NOUVEAU-CAFE!-NOUVELLE-BOUTIQUE.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#img3 {
+  background-image: url(../img/accueil/OPEN-MUSEUM-4-ALAIN-PASSARD.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#img1,#img2, #img3 {
+  margin-bottom: 0;
+}
+
+#accueil h3 {
+  color: white;
+}
+
+#accueil .carousel-caption {
+  height: 90%;
+  /*padding: 20px;*/
+
+}
+
+.hautgauchedroitebas {
+border-top: 8px solid white;
+border-left: 8px solid white;
+border-right : 8px solid white;
+height: 15px;
+}
+
+.basgauchedroitehaut {
+  border-bottom: 8px solid white;
+  border-left: 8px solid white;
+  border-right : 8px solid white;
+  height: 15px;
+
+}
+
+.icon-parent::before {
+    content: "\e923";
+
+}
+
+.icon-musee-prive::before {
+    content: "\e921";
+
+}
+
+.icon-place::before {
+    content: "\e968";
+
+}
+/********************************************section plus d'oeuvre************************************************************/
+.oeuvrescles {
+  background-color: #1D1A20;
+  padding: 20px;
+  text-align: center;
+}
+
+.oeuvrescles .fa.fa-caret-down {
+  color: white;
+  font-size: 40px;
+}
+
+#accueil .tableaux article {
+  padding: 0;
+  width: 100%;
+  position: relative;
+
+  padding-bottom: 100%;
+}
+
+#tableau1 {
+  background-image: url(../img/accueil/Le-Concert-dans-l-oeuf.jpg);
+  background-size: cover;
+  background-position: center;
+
+
+}
+
+#tableau2 {
+  background-image: url(../img/accueil/Etude-pour-la-Madone-d-Albe.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+#tableau3 {
+  background-image: url(../img/accueil/Les-Vieilles-Le-Temps.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+#tableau4 {
+  background-image: url(../img/accueil/Le-festin-d-Herode.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+
+.inttableau {
+  background-color: white;
+  position: absolute;
+  width: 60%;
+  height: 40%;
+  bottom: 60px;
+left : 20%;
+padding: 20px;
+}
+.inttableau h5 {
+  font-size: 20px;
+  font-family: "lovelo"
+}
+
+#accueil .tableaux a {
+  color: black;
+  padding: 0;
+}
+
+ #accueil .inttableau p {
+  color: black;
+  font-size: 12px;
+}
+
+#accueil .tableaux a:hover, #accueil .tableaux a:hover p {
+  color: #D8383F;
+  transition: all 0.3s ease 0s;
+}
+
+/*******************************************************décrouvrir plus d'oeuvres**************************************/
+
+.plusdoeuvre {
+  background-color: #1D1D1E;
+  text-align: center;
+  padding: 30px;
+}
+
+.plusdoeuvre a {
+  width: 90%;
+  border: 5px solid white;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  font-family: "lovelo";
+  color: white;
+  font-size: 15px;
+
+}
+
+.plusdoeuvre a:hover {
+  color: #D8383F;
+  transition: all 0.3s ease 0s;
+  border: 5px solid #D8383F;
+
+}
+
+.icon-archive::before {
+    content: "\e900";
+
+}
+.insta {
+  padding: 40px;
+
+}
+#accueil .insta p {
+  font-size: 20px;
+}
+
+.insta i {
+  color: white;
+  font-size: 60px;
+}
+/*******************************************************************instagramm*****************************************************/
+.instagra figure {
+  width: 100%;
+  margin : 0;
+}
+
+
+.instagra figure:hover {
+  background-color: #D8383F;
+z-index: 20;
+}
+
+.instagra figure:hover img {
+  opacity: 0.5;
+}
+
+/*************************************************************applis****************************************************************/
+.applis {
+  background-color: #D8383F;
+  text-align: center;
+  padding: 20px;
+}
+
+.lienapplis:hover .applis {
+  background-color: white;
+  transition: all 0.3s ease 0s;
+}
+
+#accueil .lienapplis:hover .applis h3, #mainvisiter .lienapplis:hover .applis h3 {
+  color: #D8383F;
+  border: 3px solid #D8383F;
+  transition: all 0.3s ease 0s;
+}
+
+#accueil .lienapplis:hover .applis p, #mainvisiter .lienapplis:hover .applis p {
+  color: #D8383F;
+  transition: all 0.3s ease 0s;
+}
+
+#accueil .lienapplis:hover .svg-tablette .st0, #accueil .lienapplis:hover .svg-tablette .st1, #mainvisiter .lienapplis:hover .svg-tablette .st0, #mainvisiter .lienapplis:hover .svg-tablette .st1 {
+  stroke: #D8383F;
+  transition: all 0.3s ease 0s;
+
+}
+
+#accueil .lienapplis:hover .svg-tablette .st2, #mainvisiter .lienapplis:hover .svg-tablette .st2 {
+  fill : #D8383F;
+  transition: all 0.3s ease 0s;
+}
+
+#mainvisiter .applis {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+#mainvisiter .applis h3, #mainvisiter .applis p {
+  color: white;
+}
+
+.svg-tablette {
+  margin: auto;
+  display: block;
+padding: 20px;
+  height: 100%;
+  width: 300px;
+
+}
+
+.svg-tablette .st0 {
+  fill: none;
+stroke: #FFF;
+stroke-width: 2;
+stroke-miterlimit: 10;
+}
+
+.svg-tablette .st1 {
+  fill: none;
+stroke: #FFF;
+stroke-miterlimit: 10;
+}
+
+.svg-tablette .st2 {
+
+  fill :#FFF;
+}
+
+.applis h3 {
+  margin: auto;
+  font-family: "lovelo";
+  font-size: 15px;
+  width: 90%;
+  border: 3px solid white;
+  padding: 10px;
+
+}
+
+/*******************************************************************en ce moment*************************************************/
+.icon-tower::before {
+    content: "\e933";
+
+    color: black;
+    font-size: 35px;
+    position: relative;
+    top : 10px;
+}
+
+.icon-globe::before {
+    content: "\e91a";
+
+    color: black;
+    font-size: 35px;
+    position: relative;
+    top : 10px;
+}
+
+#accueil a:hover .icon-globe::before, #accueil a:hover .icon-tower::before {
+  color: #D8383F;
+}
+
+#accueil .encemoment p {
+  color: black;
+  font-size: 12px;
+}
+.lille, .culturel {
+  width: 85%;
+  text-align: center;
+  border: 3px solid black;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+#accueil .encemoment a:hover p {
+  color: #D8383F;
+}
+
+#accueil .encemoment a:hover .lille, #accueil .encemoment a:hover .culturel {
+  border-color: #D8383F;
+}
+
+
+/***********************************************claire***********************************************/
+
+
+/* fonts-family */
+
+.text-lovelo{
+  font-family: "lovelo";
+}
+
+.visiter body, .visiter a {
+  font-family: "lovelo";
+}
+
+.p-visiter p { /*line-height adjusts icon-clock to p text*/
+  line-height: 2;
+}
+
+/* general a hrefs */
+
+.visiter a {
+  text-decoration: none;
+  color: black;
+}
+
+.visiter a:hover {
+  color: #D8383F;
+  text-decoration: none;
+}
+
+/* color related (bg : background) */
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-grey {
+  background-color: #E9E9E9;
+}
+
+.bg-black {
+  background-color: rgb(29, 29, 30);
+}
+
+/* --------------------- aside boxes --------------------- */
+
+.profils {
+  width: 20%;
+  height: 40vw;
+}
+
+.incontournables, .parcours{
+  height: 99vw;
+}
+
+.size.visiter {
+  padding: 1.5rem 1.5rem !important;
+  margin-bottom: 22px;
+}
+
+.time-title { /* text in incontournables section */
+  font-size: 2rem ;
+  font-weight: bold;
+}
+
+
+
+
+/* white box with text of aside and a */
+
+/* text boxes related to profiles section - smartphone and tablet*/
+
+.title-profils  {
+  font-size: 1rem !important;
+}
+
+.title-profils span {
+  font-size: 1.4rem !important;
+}
+
+
+.text-box-profils {
+  opacity: 0.9;
+}
+
+.text-box-profils h2 {
+  font-size: 1rem;
+  padding: 40px 22px;
+  line-height: 1;
+}
+
+.text-box-profils span {
+  font-size: 1.6rem;
+
+}
+
+/* text boxes related to parcours section */
+
+.text-box-parcours {
+  padding: 26px;
+  height: 25vh;
+}
+
+.text-box-parcours h3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.2em;
+  max-height: 2.4em;
+}
+
+.text-box-parcours p {
+  margin: 0;
+}
+
+/* text boxes related to incontournables section */
+
+.text-box-incontournables {
+  padding: 27px 0;
+}
+
+.title { /*time title in incontournables*/
+  font-size: 48px;
+}
+
+
+/* --------------------- integrated icons --------------------- */
+
+.icon-parcours:before {
+  content: "\e922";
+  font-family: "pba";
+  font-size: 2rem;
+  color: white;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #FFF;
+  position: relative;
+  margin-left: -10px;
+  margin-top: 25px;
+}
+
+.icon-clock:before {
+  content: "\e907";
+  font-family: "pba";
+  font-size: 1rem;
+  color: #000;
+  margin-right: 5px;
+}
+
+/* --------------------- background image --------------------- */
+
+.backgroundimg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* --------------------- links to all background images --------------------- */
+
+/* gallery profiles */
+
+.backgroundimg.profils.one {
+  background-image: url("../img/visiter/profil-1.jpg");
+}
+
+.backgroundimg.profils.two {
+  background-image: url("../img/visiter/profil-2.jpg");
+}
+
+.backgroundimg.profils.three {
+  background-image: url("../img/visiter/profil-3.jpg");
+}
+
+.backgroundimg.profils.four {
+  background-image: url("../img/visiter/profil-4.jpg");
+}
+
+.backgroundimg.profils.five {
+  background-image: url("../img/visiter/profil-5.jpg");
+}
+
+/* gallery parcours */
+
+.backgroundimg.parcours.one {
+  background-image: url("../img/visiter/parcours-1.jpg");
+}
+
+.backgroundimg.parcours.two {
+  background-image: url("../img/visiter/parcours-2.jpg");
+}
+
+.backgroundimg.parcours.three {
+  background-image: url("../img/visiter/parcours-3.jpg");
+}
+
+.backgroundimg.parcours.four {
+  background-image: url("../img/visiter/parcours-4.jpg");
+}
+
+.backgroundimg.parcours.five {
+  background-image: url("../img/visiter/parcours-5.jpg");
+}
+
+.backgroundimg.parcours.six {
+  background-image: url("../img/visiter/parcours-6.jpg");
+}
+
+.backgroundimg.parcours.seven {
+  background-image: url("../img/visiter/parcours-7.jpg");
+}
+
+.backgroundimg.parcours.eight {
+  background-image: url("../img/visiter/parcours-8.jpg");
+}
+
+/* gallery incontournables */
+
+.backgroundimg.incontournables.one {
+  background-image: url("../img/visiter/incontournables-1.jpg");
+}
+
+.backgroundimg.incontournables.two {
+  background-image: url("../img/visiter/incontournables-2.jpg");
+}
+
+.backgroundimg.incontournables.three {
+  background-image: url("../img/visiter/incontournables-3.jpg");
+}
+
+/*********************************************début footer****************************************************/
+
+footer {
+  background-color: #1D1D1E;
+  font-family: "lovelo";
+  color: white;
+
+}
+
+footer ul  {
+  list-style: none;
+  padding-left: 0;
+}
+footer>ul>li{
+  padding: 20px;
+  font-size: 15px;
+}
+
+
+
+
+
+footer ul li ul li {
+  font-size:10px;
+  font-weight: lighter;
+}
+footer *[class^="icon"],footer .icon-musee-prive::before {
+  font-size: 20px;
+  font-family: "pba";
+  color: white;
+}
+
+footer .icon-clock::before {
+  color: white;
+}
+
+
+
+.icon-marker::before {
+    content: "\e91e";
+
+}
+
+.icon-presse::before {
+    content: "\e927";
+
+}
+
+/*footer .icon-send::before {
+    content: "\e92b";
+    font-size: 45px;
+
+}*/
+
+.footphone {
+  width: 274px;
+  margin: auto;
+}
+
+
+
+.icon-twitter-circled::before {
+
+    content: "\e934";
+
+
+}
+
+.icon-facebook-circled::before {
+    content: "\e93a";
+}
+
+.icon-instagram::before {
+    content: "\e91c";
+}
+
+.icon-vimeo-circled::before {
+    content: "\e936";
+}
+
+.icon-youtube-circled::before {
+    content: "\e93c";
+}
+
+footer nav {
+  margin-top: 40px;
+}
+
+footer nav *[class^="icon"] {
+  font-size: 35px;
+}
+
+footer nav *[class^="icon"]:hover {
+  color :#D8383F;
+}
+
+#navicon {
+  margin-bottom: 0;
+}
+
+@media (min-width : 660px) {
+  .footphone {
+    width: 450px;
+
+  }
+
+  footer ul li, footer ul li ul li {
+
+    font-size: 25px;
+  }
+
+  footer .icon-clock::before {
+      content: "\e907";
+  font-size: 45px;
+  color: white;
+  }
+
+  footer *[class^="icon"],footer .icon-musee-prive::before {
+    font-size: 45px;
+  }
+
+  footer nav *[class^="icon"] {
+    font-size: 45px;
+  }
+
+
+
+
+
+footer .icon-send::before {
+
+
+    font-size: 45px;
+
+}
+}
+
+
+@media (min-width:576px) {
+  .title-profils  {
+    font-size: 1.5rem !important;
+  }
+
+  .title-profils span {
+    font-size: 2rem !important;
+  }
+
+}
+
+
+@media (min-width:576px) {
+
+  .size.visiter {
+    padding: 3rem 3rem !important;
+    margin-bottom: 45px;
+  }
+
+  .time-title {
+    font-size: 4.5rem ;
+    font-weight: bold;
+  }
+
+}
+
+@media (min-width: 584px) {
+
+  .icon-parcours:before {
+    font-size: 5rem;
+  }
+
+  .icon-clock.icon.tablet-format:before {
+    font-size: 2rem;
+  }
+
+  .text-box-parcours {
+    padding: 47px;
+    height: 40vh;
+  }
+
+  .text-box-parcours h3 {
+    font-size: 3rem;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 660px){
+
+  ************************************************header**********************************************
+    #navbarSupportedContent li {
+  font-size:30px;
+    }
+
+
+  ************************************************fin header**********************************************
+
+  .collection-phone {
+    height: 600px
+  }
+
+  #accueil h2 {
+    font-size: 46px;
+  }
+
+  #accueil p {
+    font-size: 24px;
+  }
+
+
+  /***********************************************carousel*******************************************/
+  .carousel-item {
+    height: 520px;
+  }
+
+  /********************************************tableaux*********************************************/
+
+  .inttableau h5 {
+    font-size: 40px;
+
+  }
+
+  #accueil .inttableau p {
+
+   font-size: 20px;
+ }
+
+ /*****************************************instragra***************************************************/
+ .instagra figure {
+   width: 50%;
+
+ }
+
+ /****************************************en ce moment*********************************************/
+ #accueil .encemoment p {
+
+   font-size: 20px;
+ }
+
+}
+
+
+@media (min-width: 710px) {
+
+
+  .gauchedroite, .hautdroitebas, .basgauchehaut {
+
+
+      height: 65px;
+
+    }
+
+}
+
+@media (min-width: 992px)  {
+
+  .icon-parcours:before {
+    font-size: 3rem;
+  }
+
+  .incontournables {
+    height: 424px;
+    width: 300px;
+  }
+
+  .parcours {
+    height: 482px;
+  }
+
+  #incontournablepc {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (min-width: 1000px) {
+  .text-box-parcours {
+    padding: 25px;
+    height: 192px;
+    width:236px;
+  }
+
+  .text-box-parcours h3 {
+    font-size: 1.7rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 990px) {
+
+  .gauchedroite, .hautdroitebas, .basgauchehaut {
+    height: 90px;
+  }
+
+  /***********************************************carousel*******************************************/
+  .carousel-item {
+    height: 550px;
+  }
+
+
+}
+
+@media (min-width: 1200px) {
+
+ #accueil .collection-visiter-pc {
+  background-image: url(../img/accueil/Palais-des-Beaux-Arts-de-Lille.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0;
+
+}
+
+.fa.fa-chevron-down {
+  position: absolute;
+  top : 492px;
+}
+
+.basdroitehaut {
+  background-image: url(../img/accueil/deco-bottom.svg);
+  background-size: cover;
+  background-position: 0% 92%;
+  background-repeat: no-repeat;
+  height: 112px;
+  -moz-transform: scaleX(-1);
+ -o-transform: scaleX(-1);
+ -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+ filter: FlipH;
+ -ms-filter: "FlipH";
+
+}
+
+.hautgauchebas {
+
+    background-image: url(../img/accueil/deco-up.svg);
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+
+   height: 90px;
+   -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.collection-visiter-pc i {
+  font-size: 40px;
+  color: white;
+}
+
+.collection-visiter-pc i:hover {
+  color: #D8383F;
+  transition: all 0.3s ease 0s;
+
+}
+/***************************************************************carousel***********************************************/
+
+ .carousel-item {
+    height: 600px;
+  }
+
+.icon-parent::before,.icon-musee-prive::before, .icon-place::before {
+  font-size: 50px;
+}
+
+/**********************************************************tableaux**********************************************/
+.tableaux {
+  display: flex;
+flex-flow: row nowrap;
+width: 100%
+}
+
+.inttableau h5 {
+  font-size: 20px;
+
+}
+
+#accueil .inttableau p {
+
+ font-size: 15px;
+}
+/*********************************************plus doeuvres***********************************************/
+.plusdoeuvre a {
+  width: 50%;
+}
+
+/***********************************************applis**************************************************/
+.applis {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+#accueil .svg-tablette, #mainvisiter .svg-tablette {
+  height: 200px;
+  order: 1;
+  width: 300px;
+  margin-left: 270px;
+
+}
+
+
+#accueil .applis h3, #mainvisiter .applis h3 {
+
+  border: none;
+  order: 2;
+  font-size: 25px;
+  width: 50%;
+  text-align: left;
+  padding: 0;
+}
+
+
+#accueil .applis p, #mainvisiter .applis p {
+  width: auto;
+  order: 3;
+  font-size: 20px;
+  width: 50%;
+  text-align: left;
+  position: relative;
+  bottom : 30px;
+}
+
+#accueil .lienapplis:hover .applis h3, #mainvisiter .lienapplis:hover .applis h3{
+  border: none;
+}
+
+/************************************************en ce moment**********************************************/
+#accueil .encemoment {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.lille, .culturel {
+  width: 500px;
+}
+
+footer>ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+footer>ul>li {
+  width: 24%;
+}
+
+.footphone {
+  width: 92%;
+}
+
+footer ul li ul li {
+  font-size: 12px;
+}
+
+footer .icon-send::before {
+  font-size: 20px;
+}
+
+
+.icon-share-circled::before {
+  content: "\e939";
+}
+footer .iconpc *[class^="icon"] {
+font-size: 30px;
+}
+
+footer hr {
+border: 2px solid white;
+width: 100%;
+}
+
+.petitpc {
+font-size: 12px ;
+}
+
+.petitpc.up {
+  position: relative;
+  bottom: 10px;
+}
+
+
+
+.petitpc *[class^="icon"] {
+font-size: 20px;
+}
+.mecene img {
+width: 200px;
+}
+
+.mecene {
+margin-left: auto;
+width: 600px;
+padding: 30px;
+}
+
+.mecene p {
+font-size: 10px;
+color: grey;
+}
+footer .iconpc *[class^="icon"]:hover {
+color: #D8383F
+}
+
+}
